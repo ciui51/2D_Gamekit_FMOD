@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{f85f89e9-831f-4577-9a2a-4d2d5da19f2c}">
 		<property name="color">
-			<value>Green</value>
+			<value>Yellow</value>
 		</property>
 		<property name="name">
 			<value>Enviornment</value>

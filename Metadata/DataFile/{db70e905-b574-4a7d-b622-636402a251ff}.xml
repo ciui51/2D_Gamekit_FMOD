@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{db70e905-b574-4a7d-b622-636402a251ff}">
+		<property name="assetPath">
+			<value>ExampleAssets/ExampleAssets/Interactables/._barrel_rolling_loop.ogg</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

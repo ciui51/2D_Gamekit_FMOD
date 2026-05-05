@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{8b6207f5-802a-4074-a9d5-cb5e241e1134}">
+		<property name="assetPath">
+			<value>ExampleAssets/ExampleAssets/VO/English/._vo_en_welcome.ogg</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

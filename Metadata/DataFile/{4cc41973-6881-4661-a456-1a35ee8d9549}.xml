@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{4cc41973-6881-4661-a456-1a35ee8d9549}">
+		<property name="assetPath">
+			<value>ExampleAssets/ExampleAssets/Ambience/Forest/._amb_forest_thunderstorm_02.ogg</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

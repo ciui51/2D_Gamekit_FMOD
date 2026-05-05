@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{3ef40a64-f572-4640-918e-55b4362d7a4c}">
+		<property name="assetPath">
+			<value>ExampleAssets/ExampleAssets/Interactables/._wooden_collision_2_dry_dull.ogg</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{cb4fb753-b522-4869-9da0-78b834ae6c99}">
-		<property name="color">
-			<value>Magenta</value>
-		</property>
 		<property name="name">
 			<value>Stinger_Progression</value>
 		</property>
@@ -49,9 +46,6 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{3c0eeaf3-f3dd-4c99-b3af-3ddc076129dd}">
-		<property name="color">
-			<value>Magenta</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{35eac6e3-236d-457f-ba49-4d0239fb30a0}</destination>
 		</relationship>

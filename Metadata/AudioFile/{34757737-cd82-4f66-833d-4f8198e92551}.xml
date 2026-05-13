@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{34757737-cd82-4f66-833d-4f8198e92551}">
+		<property name="assetPath">
+			<value>Ljudbibloteket/-intro-/frame_4.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>30.214270833333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{2e7a20fa-e55b-40ca-9c62-eb49f81db14e}">
+		<property name="assetPath">
+			<value>Ljudbibloteket/-minigames-/distractions/static/Pure_white_noise.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>21.0625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

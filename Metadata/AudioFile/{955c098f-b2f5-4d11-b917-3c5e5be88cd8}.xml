@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{955c098f-b2f5-4d11-b917-3c5e5be88cd8}">
+		<property name="assetPath">
+			<value>Ljudbibloteket/-unused-/leveling/LevelUp_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.86160416666666662</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

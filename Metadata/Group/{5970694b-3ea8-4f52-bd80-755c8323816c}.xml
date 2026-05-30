@@ -5,7 +5,7 @@
 			<value>Cyan Light 1</value>
 		</property>
 		<property name="volume">
-			<value>-24.5</value>
+			<value>-16</value>
 		</property>
 		<property name="name">
 			<value>A_out</value>

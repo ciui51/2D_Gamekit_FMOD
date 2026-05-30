@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{fc834c61-d0a2-466c-8938-d8fb3c2b5280}">
 		<property name="color">
-			<value>Cyan Light 1</value>
+			<value>Cyan Light 2</value>
 		</property>
 		<property name="name">
 			<value>AmbianceOutdoor</value>
@@ -53,7 +53,7 @@
 	</object>
 	<object class="MixerInput" id="{b7672da2-abd4-4178-bfb4-3f8ad84030ec}">
 		<property name="color">
-			<value>Cyan Light 1</value>
+			<value>Cyan Light 2</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{1ad57f78-6b93-4f67-8388-3571474323bf}</destination>

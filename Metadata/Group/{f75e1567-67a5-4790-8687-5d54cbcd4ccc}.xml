@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="MixerGroup" id="{5970694b-3ea8-4f52-bd80-755c8323816c}">
+	<object class="MixerGroup" id="{f75e1567-67a5-4790-8687-5d54cbcd4ccc}">
 		<property name="color">
 			<value>Cyan Light 2</value>
 		</property>
@@ -8,23 +8,23 @@
 			<value>-16</value>
 		</property>
 		<property name="name">
-			<value>A_out</value>
+			<value>A_in</value>
 		</property>
 		<relationship name="effectChain">
-			<destination>{df306722-00ab-40d5-9cdc-2f66870e8b6a}</destination>
+			<destination>{71812384-bb76-494a-af72-12ea78a9b704}</destination>
 		</relationship>
 		<relationship name="panner">
-			<destination>{c4728ff8-531b-45b0-a2b9-3d4c3f9707bf}</destination>
+			<destination>{bc93205a-3d6c-4af9-8b50-65e1db682bbd}</destination>
 		</relationship>
 		<relationship name="output">
 			<destination>{03c216c1-001d-4e3f-8a4b-f33ef65432a1}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusEffectChain" id="{df306722-00ab-40d5-9cdc-2f66870e8b6a}">
+	<object class="MixerBusEffectChain" id="{71812384-bb76-494a-af72-12ea78a9b704}">
 		<relationship name="effects">
-			<destination>{cdb072d7-2e5d-4288-9532-6b004787316b}</destination>
+			<destination>{4f85128a-7b0f-4101-9194-5aa886054e87}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{c4728ff8-531b-45b0-a2b9-3d4c3f9707bf}" />
-	<object class="MixerBusFader" id="{cdb072d7-2e5d-4288-9532-6b004787316b}" />
+	<object class="MixerBusPanner" id="{bc93205a-3d6c-4af9-8b50-65e1db682bbd}" />
+	<object class="MixerBusFader" id="{4f85128a-7b0f-4101-9194-5aa886054e87}" />
 </objects>

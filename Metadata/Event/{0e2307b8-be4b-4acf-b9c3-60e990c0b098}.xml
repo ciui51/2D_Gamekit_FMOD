@@ -8,7 +8,7 @@
 			<value>BossWalk</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7b9e287a-ad70-4283-b651-a436105bccc0}</destination>
@@ -130,6 +130,7 @@
 	<object class="MixerBusEffectChain" id="{e2a8a767-40b1-4496-be4a-1a882ea82763}">
 		<relationship name="effects">
 			<destination>{be78cdbc-5c3a-4ddd-a9c4-93cb100a1de0}</destination>
+			<destination>{fab3106f-1502-424b-afaf-8a2f9111d2bc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e8071ab9-9f5e-4a5f-a591-e18f296976f6}" />
@@ -188,9 +189,10 @@
 	</object>
 	<object class="MixerBusPanner" id="{50bff966-d9dc-4277-a619-634843c27708}" />
 	<object class="MixerBusFader" id="{be78cdbc-5c3a-4ddd-a9c4-93cb100a1de0}" />
+	<object class="SpatialiserEffect" id="{fab3106f-1502-424b-afaf-8a2f9111d2bc}" />
 	<object class="AutomationPoint" id="{744504e8-4f14-4300-bbfb-cab1a6615155}">
 		<property name="position">
-			<value>0.30000000000000004</value>
+			<value>0.10000000000000001</value>
 		</property>
 		<property name="value">
 			<value>1</value>

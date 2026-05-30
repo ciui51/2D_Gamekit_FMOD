@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{84fd56cb-3138-4c7e-adc6-9c78a208eeb2}">
 		<property name="color">
-			<value>Blue Light 2</value>
+			<value>Magenta Light 1</value>
 		</property>
 		<property name="name">
 			<value>MenuClick</value>

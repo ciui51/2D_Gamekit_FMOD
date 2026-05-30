@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5ab1fad6-6aab-42e5-ac77-eb213cd6dd17}">
+		<property name="color">
+			<value>Blue Light 1</value>
+		</property>
 		<property name="name">
 			<value>PickupKey</value>
 		</property>
@@ -46,6 +49,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{5a1e4369-2eea-497b-935a-faf243bd4cc4}">
+		<property name="color">
+			<value>Blue Light 1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{55ac088f-6dd3-4f60-8c83-c0658323415d}</destination>
 		</relationship>
@@ -53,7 +59,7 @@
 			<destination>{1fa27a4a-a4d7-4314-8aca-3f0c3d6fd0b9}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{032a60a7-51cd-4172-9b1f-d7db52c2e3e0}</destination>
+			<destination>{ca185183-7488-42b7-947a-06f73ac5d1e6}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3fbfcc5c-bec8-4282-a639-76f02b6ae59d}" />
@@ -72,6 +78,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{93a05afb-cca1-4220-847d-7d10e88bfbd2}">
+		<property name="volume">
+			<value>-12</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{22d02131-30f1-4f97-87d4-d4a7fca59a10}</destination>
 		</relationship>
@@ -103,7 +112,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{cc99ccfa-e39c-458a-9b40-fb1d96186e61}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Key</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{b932530d-8ee3-4724-830a-3963d34e0dfd}</destination>

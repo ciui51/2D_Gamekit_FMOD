@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{950eac43-b7c9-40a7-a154-ebb44f78b801}">
+	<object class="AudioFile" id="{a5ccc5cd-c90c-4ce1-9926-5cd89b368674}">
 		<property name="assetPath">
-			<value>FL/PlayerRanged2.wav</value>
+			<value>Player/PlayerRanged6.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.85714583333333338</value>
+			<value>1.0714166666666667</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>

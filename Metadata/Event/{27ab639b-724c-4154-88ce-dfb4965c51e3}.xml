@@ -99,7 +99,7 @@
 			<value>1.0714166666666667</value>
 		</property>
 		<property name="pitch">
-			<value>-0.800000012</value>
+			<value>-1.80000007</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{259eefdd-5747-48f6-8963-83fbd649bd47}</destination>
@@ -156,20 +156,22 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{f1bf7b0f-8e5d-4cd8-8b26-1fb93281e4c3}">
 		<relationship name="effects">
+			<destination>{d398232f-50b4-4cfd-9450-75cfe5e4711e}</destination>
 			<destination>{97558cca-541a-4495-89d7-d490a3ffe584}</destination>
+			<destination>{633ae068-c066-47c0-bc89-02f4b88819f5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6a13c1f5-8783-4e5c-9fb3-c9f5a20b30dc}" />
 	<object class="MixerBusFader" id="{4144dde9-08ad-4f48-83d5-6199fcd91c7d}" />
 	<object class="AutomationPoint" id="{62455e12-56ad-4d2a-b491-9f939074fbc9}">
 		<property name="position">
-			<value>0.41999999999999998</value>
+			<value>0.40000000000000002</value>
 		</property>
 		<property name="value">
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.489006966</value>
+			<value>-0.234588802</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9e1ee0f5-9d2e-45a1-af26-31e5b61cd134}">
@@ -180,5 +182,36 @@
 			<value>0</value>
 		</property>
 	</object>
+	<object class="ThreeEQEffect" id="{d398232f-50b4-4cfd-9450-75cfe5e4711e}">
+		<property name="midGain">
+			<value>-5</value>
+		</property>
+		<property name="highGain">
+			<value>-6</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{97558cca-541a-4495-89d7-d490a3ffe584}" />
+	<object class="SFXReverbEffect" id="{633ae068-c066-47c0-bc89-02f4b88819f5}">
+		<property name="earlyDelay">
+			<value>179</value>
+		</property>
+		<property name="lateDelay">
+			<value>100</value>
+		</property>
+		<property name="diffusion">
+			<value>21</value>
+		</property>
+		<property name="highCut">
+			<value>1670</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>65</value>
+		</property>
+		<property name="wetLevel">
+			<value>-28</value>
+		</property>
+	</object>
 </objects>

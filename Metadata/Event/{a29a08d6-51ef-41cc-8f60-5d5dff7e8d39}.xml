@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a29a08d6-51ef-41cc-8f60-5d5dff7e8d39}">
+		<property name="color">
+			<value>Yellow Light 1</value>
+		</property>
 		<property name="name">
 			<value>PlayerLand</value>
 		</property>
@@ -47,7 +50,7 @@
 	</object>
 	<object class="MixerInput" id="{bbe0e5ab-d581-4419-8a72-0744965fe4b3}">
 		<property name="color">
-			<value>Green Light 2</value>
+			<value>Yellow Light 1</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{362179c0-0359-48da-a95d-0128424c7a83}</destination>
@@ -56,7 +59,7 @@
 			<destination>{cda0aa8e-2047-4781-b4cf-1210117f077f}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{83a46536-bed5-42fe-9100-f330421789e0}</destination>
+			<destination>{1d603c13-8069-47b6-9b41-7b054bf77d22}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f0bb79cf-2a1e-40bb-9387-baa1307663a8}" />

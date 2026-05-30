@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{27ab639b-724c-4154-88ce-dfb4965c51e3}">
 		<property name="color">
-			<value>Blue Light 2</value>
+			<value>Yellow Light 1</value>
 		</property>
 		<property name="name">
 			<value>PlayerRangedAttack</value>
@@ -50,7 +50,7 @@
 	</object>
 	<object class="MixerInput" id="{c50313dc-944e-419f-937f-71001079e7f5}">
 		<property name="color">
-			<value>Green Light 2</value>
+			<value>Yellow Light 1</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{7bc91b9e-a4aa-4dda-8290-e93ce768fe5b}</destination>
@@ -59,7 +59,7 @@
 			<destination>{0c8c1d53-5382-4360-920a-ecaa4ddda5b4}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{83a46536-bed5-42fe-9100-f330421789e0}</destination>
+			<destination>{84111524-daae-4fec-9933-2634b88d2508}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{63d5e4d7-c665-40f4-b50f-636a15b1c303}" />

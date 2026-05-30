@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a2de45b2-5799-4293-a2f5-4481eb66df77}">
 		<property name="color">
-			<value>Blue Light 2</value>
+			<value>Yellow Light 1</value>
 		</property>
 		<property name="name">
 			<value>PlayerFootsteps</value>
@@ -55,7 +55,7 @@
 	</object>
 	<object class="MixerInput" id="{f49126b1-d03e-4c21-8f60-c10fa508243c}">
 		<property name="color">
-			<value>Green Light 2</value>
+			<value>Yellow Light 1</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{fa41585f-8829-4001-a0f7-076bcba815c8}</destination>
@@ -64,7 +64,7 @@
 			<destination>{88715b2d-253b-493e-ace6-cb15fbd957c0}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{83a46536-bed5-42fe-9100-f330421789e0}</destination>
+			<destination>{800b21e3-eb59-46cc-935d-56c12e650a81}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e8b008e1-ad5d-49dd-a124-a69fed4661e2}" />

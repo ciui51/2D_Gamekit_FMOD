@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{1d603c13-8069-47b6-9b41-7b054bf77d22}">
+		<property name="color">
+			<value>Yellow Light 1</value>
+		</property>
+		<property name="name">
+			<value>P_land</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{8301a078-df31-4c01-936a-ae3f8eb5b443}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d7ed88ce-5fa5-47bd-9cb9-b45d025259cb}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{83a46536-bed5-42fe-9100-f330421789e0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{8301a078-df31-4c01-936a-ae3f8eb5b443}">
+		<relationship name="effects">
+			<destination>{7907d2eb-46ce-4df2-bb6a-345e32e84766}</destination>
+			<destination>{7d256045-fa01-46d2-b984-dc8a08488e75}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d7ed88ce-5fa5-47bd-9cb9-b45d025259cb}" />
+	<object class="ThreeEQEffect" id="{7907d2eb-46ce-4df2-bb6a-345e32e84766}">
+		<property name="lowGain">
+			<value>-10</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{7d256045-fa01-46d2-b984-dc8a08488e75}" />
+</objects>

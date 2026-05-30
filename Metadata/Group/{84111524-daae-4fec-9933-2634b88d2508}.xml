@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{84111524-daae-4fec-9933-2634b88d2508}">
+		<property name="color">
+			<value>Yellow Light 1</value>
+		</property>
+		<property name="name">
+			<value>P_ranged</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{703d8f25-e199-40e6-92ef-3b1826cf777f}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{cfdb60a5-77d2-4b8d-94b9-041281d75de0}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{83a46536-bed5-42fe-9100-f330421789e0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{703d8f25-e199-40e6-92ef-3b1826cf777f}">
+		<relationship name="effects">
+			<destination>{fb7a03b7-4151-4d83-8ecc-4352e13998bb}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{cfdb60a5-77d2-4b8d-94b9-041281d75de0}" />
+	<object class="MixerBusFader" id="{fb7a03b7-4151-4d83-8ecc-4352e13998bb}" />
+</objects>

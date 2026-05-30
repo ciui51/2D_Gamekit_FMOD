@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{8adb1161-0858-4336-b47b-565ab15bd86f}">
-		<property name="color">
-			<value>Blue</value>
-		</property>
 		<property name="name">
-			<value>AMB</value>
+			<value>---AMB---</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{6aad7cc5-9b7d-43f9-be52-de5f84ff7c7c}</destination>

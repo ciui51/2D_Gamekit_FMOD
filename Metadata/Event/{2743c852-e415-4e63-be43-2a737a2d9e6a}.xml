@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{2743c852-e415-4e63-be43-2a737a2d9e6a}">
+		<property name="color">
+			<value>Yellow Light 1</value>
+		</property>
 		<property name="name">
 			<value>PlayerMeleeAttack</value>
 		</property>
@@ -47,7 +50,7 @@
 	</object>
 	<object class="MixerInput" id="{9d7f0c39-c3f5-4df9-b13b-5ecadf360bf4}">
 		<property name="color">
-			<value>Green Light 2</value>
+			<value>Yellow Light 1</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{eb5f76d3-39b1-40cb-ae9c-f0d0c5204556}</destination>
@@ -56,7 +59,7 @@
 			<destination>{9c15bd46-aefc-4c20-8b92-4fffbe470867}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{83a46536-bed5-42fe-9100-f330421789e0}</destination>
+			<destination>{f7c75d01-3d09-4057-aa01-556a120b073f}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7c7ace90-2d73-40e8-b60a-1dea0b41d011}" />

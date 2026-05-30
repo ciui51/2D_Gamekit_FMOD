@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{fc834c61-d0a2-466c-8938-d8fb3c2b5280}">
+		<property name="color">
+			<value>Cyan Light 1</value>
+		</property>
 		<property name="name">
 			<value>AmbianceOutdoor</value>
 		</property>
@@ -49,6 +52,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{b7672da2-abd4-4178-bfb4-3f8ad84030ec}">
+		<property name="color">
+			<value>Cyan Light 1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{1ad57f78-6b93-4f67-8388-3571474323bf}</destination>
 		</relationship>
@@ -56,7 +62,7 @@
 			<destination>{0ce2e442-3884-4c4d-83ae-027061104753}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{03c216c1-001d-4e3f-8a4b-f33ef65432a1}</destination>
+			<destination>{5970694b-3ea8-4f52-bd80-755c8323816c}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{bd43dbb5-a591-4cd5-ac7d-07ea205fe8f0}" />

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{03c216c1-001d-4e3f-8a4b-f33ef65432a1}">
 		<property name="color">
-			<value>Blue</value>
+			<value>Cyan</value>
 		</property>
 		<property name="name">
 			<value>Ambiance</value>
@@ -14,7 +14,7 @@
 			<destination>{ac745445-da1c-4551-88f9-8552015e681c}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{8adb1161-0858-4336-b47b-565ab15bd86f}</destination>
+			<destination>{32bc4d57-a11e-4ebb-8fa2-a4a562657929}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{c64f8c92-1e95-45d5-ba94-7c31572aaa5a}">

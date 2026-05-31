@@ -107,7 +107,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{aeab8313-3cf0-4083-9d99-6c8fae576f2b}">
 		<property name="volume">
-			<value>-12.5</value>
+			<value>-14.5</value>
 		</property>
 		<property name="name">
 			<value>Jump</value>
@@ -153,11 +153,14 @@
 	<object class="MixerBusPanner" id="{69aad075-c414-4479-a44c-0aa61ec7d861}" />
 	<object class="MixerBusFader" id="{2dff1702-b363-4842-9d28-4fd4d4fbc9b7}" />
 	<object class="ThreeEQEffect" id="{7713abdb-efed-4e1b-939a-344a67bd4fb6}">
+		<property name="lowGain">
+			<value>-4</value>
+		</property>
 		<property name="midGain">
-			<value>-6.5</value>
+			<value>-1.5</value>
 		</property>
 		<property name="highGain">
-			<value>-4</value>
+			<value>-14</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{ae9f8c78-3939-46bd-8936-0e61efa9bd82}</destination>

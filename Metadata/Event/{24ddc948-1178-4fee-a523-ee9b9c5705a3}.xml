@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{24ddc948-1178-4fee-a523-ee9b9c5705a3}">
+		<property name="color">
+			<value>Blue Light 1</value>
+		</property>
 		<property name="name">
 			<value>PushBox</value>
 		</property>
@@ -61,7 +64,11 @@
 			<destination>{0dece5fc-4a3f-450a-93cc-0704db23f5cd}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{5967eaf0-4ce8-4b14-8de1-bbb4eabee0ab}" />
+	<object class="EventAutomatableProperties" id="{5967eaf0-4ce8-4b14-8de1-bbb4eabee0ab}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{dfc6d716-ceec-4d69-ae17-19168874bf6e}" />
 	<object class="MarkerTrack" id="{5dd690ae-7c43-4bbb-987b-8c2b1fc3e179}" />
 	<object class="MarkerTrack" id="{4f6e06bd-7a2e-406a-a914-2f0b84a6a4db}" />
@@ -129,7 +136,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{501bfb4b-0150-4c36-a0ec-b13a47df08e7}">
 		<property name="volume">
-			<value>-16.5</value>
+			<value>-21</value>
 		</property>
 		<property name="name">
 			<value>Loop</value>

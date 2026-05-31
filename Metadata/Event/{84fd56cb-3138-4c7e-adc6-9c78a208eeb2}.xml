@@ -49,6 +49,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{1f99ebf0-a197-4ad8-a14c-e1c0f7ef89e4}">
+		<property name="color">
+			<value>Magenta Light 1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{dddee1bf-612c-418a-8dff-700df3d41abe}</destination>
 		</relationship>
@@ -56,7 +59,7 @@
 			<destination>{7bbf7462-5702-4458-8d96-29fa4cee59a8}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{3063bb20-ec0b-4896-bec1-27e9f08b514b}</destination>
+			<destination>{61c20ea5-e330-447e-b61c-8b08831eea21}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{5139ecbc-5c5c-4689-ba50-67583d53060b}" />

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{437995c2-4510-4e7b-b6ae-153155d7bd39}">
+		<property name="name">
+			<value>B_lazer</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f8c985a5-3789-4b00-9b4b-c67fdca48f8a}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{02ad9800-d426-4c44-b91b-cdd63c83bd54}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{2758d431-5028-4fab-a6fd-60f096932f00}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f8c985a5-3789-4b00-9b4b-c67fdca48f8a}">
+		<relationship name="effects">
+			<destination>{88412c9e-af8c-4759-98fa-2bf0c6d4d82a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{02ad9800-d426-4c44-b91b-cdd63c83bd54}" />
+	<object class="MixerBusFader" id="{88412c9e-af8c-4759-98fa-2bf0c6d4d82a}" />
+</objects>

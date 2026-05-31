@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{79f02bf5-30ce-480b-906e-7fc2ffa105bf}">
+		<property name="name">
+			<value>E_melee</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{01e4be1a-925f-41e6-add5-d2e117251044}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b8781ba9-f6d2-44dc-a105-2fe207a90221}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{2758d431-5028-4fab-a6fd-60f096932f00}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{01e4be1a-925f-41e6-add5-d2e117251044}">
+		<relationship name="effects">
+			<destination>{fc703d55-60d0-46d1-aaba-3f9bc11832a7}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b8781ba9-f6d2-44dc-a105-2fe207a90221}" />
+	<object class="MixerBusFader" id="{fc703d55-60d0-46d1-aaba-3f9bc11832a7}" />
+</objects>

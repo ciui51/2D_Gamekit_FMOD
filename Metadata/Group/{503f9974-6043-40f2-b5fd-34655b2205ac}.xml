@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{503f9974-6043-40f2-b5fd-34655b2205ac}">
+		<property name="name">
+			<value>E_spit</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{991f328d-b4e8-48f0-b76c-6ad22f5f3bef}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{facc6e2f-d8d3-446d-87e4-8f5187bb768a}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{2758d431-5028-4fab-a6fd-60f096932f00}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{991f328d-b4e8-48f0-b76c-6ad22f5f3bef}">
+		<relationship name="effects">
+			<destination>{159628ca-62d9-4d23-a11f-9cc8569c5228}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{facc6e2f-d8d3-446d-87e4-8f5187bb768a}" />
+	<object class="MixerBusFader" id="{159628ca-62d9-4d23-a11f-9cc8569c5228}" />
+</objects>

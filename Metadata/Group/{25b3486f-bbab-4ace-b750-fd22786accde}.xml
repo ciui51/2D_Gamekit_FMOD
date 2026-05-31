@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{25b3486f-bbab-4ace-b750-fd22786accde}">
+		<property name="name">
+			<value>B_blixt</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{8c55928d-d5c7-4fe5-b288-1d7e665dc312}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ca3c7256-908d-4e50-828c-e125d793235b}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{2758d431-5028-4fab-a6fd-60f096932f00}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{8c55928d-d5c7-4fe5-b288-1d7e665dc312}">
+		<relationship name="effects">
+			<destination>{f2bad67d-1b48-44ba-86df-39e44a3e643e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ca3c7256-908d-4e50-828c-e125d793235b}" />
+	<object class="MixerBusFader" id="{f2bad67d-1b48-44ba-86df-39e44a3e643e}" />
+</objects>

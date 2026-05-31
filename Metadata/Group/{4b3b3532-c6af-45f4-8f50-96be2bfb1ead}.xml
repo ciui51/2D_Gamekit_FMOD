@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{4b3b3532-c6af-45f4-8f50-96be2bfb1ead}">
+		<property name="name">
+			<value>B_steam</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{1023f596-77c5-4aa1-80fc-49814c6f5fba}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{4ef66c64-b70f-4294-9a0b-441ef5b9c84a}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{2758d431-5028-4fab-a6fd-60f096932f00}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{1023f596-77c5-4aa1-80fc-49814c6f5fba}">
+		<relationship name="effects">
+			<destination>{8097094e-5e7b-4ca4-bd4d-bc59dbfb77fe}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{4ef66c64-b70f-4294-9a0b-441ef5b9c84a}" />
+	<object class="MixerBusFader" id="{8097094e-5e7b-4ca4-bd4d-bc59dbfb77fe}" />
+</objects>

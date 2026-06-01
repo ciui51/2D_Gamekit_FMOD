@@ -114,6 +114,12 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{d20e1ce1-770e-401e-842b-5afc35ed4c01}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{ce75f0f6-45fe-4a52-a1bc-136315bb5302}</destination>
 		</relationship>
@@ -184,7 +190,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-10</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{58f073b9-38ff-4814-9862-5aabe09bfe9d}">

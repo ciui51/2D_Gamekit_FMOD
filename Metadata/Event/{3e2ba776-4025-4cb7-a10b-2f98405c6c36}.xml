@@ -199,5 +199,12 @@
 			<value>-0.5</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{51eda7c9-456d-4074-8ef6-9729499ee775}" />
+	<object class="SpatialiserEffect" id="{51eda7c9-456d-4074-8ef6-9729499ee775}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>0.300000012</value>
+		</property>
+	</object>
 </objects>

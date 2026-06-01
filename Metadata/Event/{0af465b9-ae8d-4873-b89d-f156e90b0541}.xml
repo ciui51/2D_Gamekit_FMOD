@@ -8,7 +8,7 @@
 			<value>WallDestroy</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{44269f74-3d77-47d2-aece-e1ea91d3bb4a}</destination>
@@ -131,6 +131,7 @@
 	<object class="MixerBusEffectChain" id="{f453c821-76f0-49a2-b077-675fbe247181}">
 		<relationship name="effects">
 			<destination>{2987df9f-bcb6-483d-80e6-6b6d4dc9d554}</destination>
+			<destination>{cc97ac3b-5508-487d-a777-f875f98ea839}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0e9cd8d1-1755-4900-a5eb-66438e256c25}" />
@@ -163,6 +164,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{a45ee49c-3d16-42ef-9de7-0d3386023464}" />
 	<object class="MixerBusFader" id="{2987df9f-bcb6-483d-80e6-6b6d4dc9d554}" />
+	<object class="SpatialiserEffect" id="{cc97ac3b-5508-487d-a777-f875f98ea839}" />
 	<object class="AutomationPoint" id="{28812264-b77b-4149-b7fc-335937339145}">
 		<property name="position">
 			<value>0</value>

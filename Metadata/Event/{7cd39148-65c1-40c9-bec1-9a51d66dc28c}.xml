@@ -8,7 +8,7 @@
 			<value>AcidPoolLoop</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7f54336e-7308-4483-8cb1-68df0f108af3}</destination>
@@ -147,6 +147,7 @@
 	<object class="MixerBusEffectChain" id="{69a9dc2f-4e2c-4310-9b17-e2a079fa06f1}">
 		<relationship name="effects">
 			<destination>{ae16e205-5b88-4acf-8555-e9356e5d847e}</destination>
+			<destination>{35e54e7a-38c8-4630-91ca-426b4b884600}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2c874b62-5b20-483f-85e6-a12467a600da}" />
@@ -166,6 +167,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{d4f0cb6f-527d-4295-9ac2-c6926a6a01eb}" />
 	<object class="MixerBusFader" id="{ae16e205-5b88-4acf-8555-e9356e5d847e}" />
+	<object class="SpatialiserEffect" id="{35e54e7a-38c8-4630-91ca-426b4b884600}" />
 	<object class="AutomationCurve" id="{7b3083f5-e4a3-495b-b2fb-0b235fb5803a}">
 		<relationship name="parameter">
 			<destination>{608e1a2b-b380-4c9c-8127-30599ed6b7b7}</destination>

@@ -8,7 +8,7 @@
 			<value>DoorOpen</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{44269f74-3d77-47d2-aece-e1ea91d3bb4a}</destination>
@@ -154,6 +154,7 @@
 	<object class="MixerBusEffectChain" id="{83230f2c-ac93-4254-a2b2-805bda17b8c8}">
 		<relationship name="effects">
 			<destination>{709ed7cf-cc58-4223-b02b-524df749dc24}</destination>
+			<destination>{0ffbfb6e-fc34-4f24-9018-29973542d4d3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7d5e094c-6bc3-4cf5-88d4-efe6e74224b6}" />
@@ -179,7 +180,7 @@
 	</object>
 	<object class="AutomationPoint" id="{45c8f0e5-b19d-4bdd-8465-3951a7527e9b}">
 		<property name="position">
-			<value>2.4552057769568707</value>
+			<value>2.3000000000000003</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -190,11 +191,12 @@
 	</object>
 	<object class="AutomationPoint" id="{69a2c171-7652-4e92-b4e5-fff2db6f5fc6}">
 		<property name="position">
-			<value>3.206642223317024</value>
+			<value>3.2066422233170253</value>
 		</property>
 		<property name="value">
 			<value>0</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{709ed7cf-cc58-4223-b02b-524df749dc24}" />
+	<object class="SpatialiserEffect" id="{0ffbfb6e-fc34-4f24-9018-29973542d4d3}" />
 </objects>

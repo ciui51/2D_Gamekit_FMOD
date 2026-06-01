@@ -151,17 +151,8 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{bd711e87-526f-49a0-bffa-c13a168511e4}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
 		<property name="length">
 			<value>0.23000000000000001</value>
-		</property>
-		<property name="looping">
-			<value>true</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{1f7cf538-8781-4e12-a141-eefc41ec6615}</destination>
@@ -171,20 +162,11 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{b3b779bc-27be-4c00-8b35-2b136dbf062e}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
 		<property name="start">
 			<value>0.28000000000000003</value>
 		</property>
 		<property name="length">
 			<value>0.28000000000000003</value>
-		</property>
-		<property name="looping">
-			<value>true</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{a4a73a80-e190-44f0-8ae3-a66961c796b0}</destination>

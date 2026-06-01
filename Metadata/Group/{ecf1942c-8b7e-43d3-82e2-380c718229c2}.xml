@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{ecf1942c-8b7e-43d3-82e2-380c718229c2}">
+		<property name="color">
+			<value>Blue Light 1</value>
+		</property>
+		<property name="volume">
+			<value>-4.5</value>
+		</property>
 		<property name="name">
 			<value>I_switch</value>
 		</property>

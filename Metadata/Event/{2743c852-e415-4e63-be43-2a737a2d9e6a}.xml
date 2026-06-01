@@ -88,6 +88,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{2b8ba066-c786-4b34-911f-6cd6ca33fc71}">
+		<property name="pitch">
+			<value>-0.5</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{7ad13d3a-b37d-4dcc-9974-0fbad4a075e3}</destination>
 		</relationship>
@@ -151,7 +154,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{4b068604-7cac-4d6b-bd62-5d1b39d4102f}">
 		<property name="name">
-			<value>4</value>
+			<value>Swosh 2</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{6294795e-dbe0-46fe-a5c7-adb8c0f367b8}</destination>
@@ -171,14 +174,13 @@
 			<value>1</value>
 		</property>
 		<property name="amount">
-			<value>2.5</value>
+			<value>1.5</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{b36dc9ca-e634-4f94-9a6d-520816802721}">
 		<relationship name="effects">
 			<destination>{7b1383d5-55e6-4456-9c79-1d1dc83060ea}</destination>
 			<destination>{b9b71894-e34c-46ae-8e34-67ab0ca338a1}</destination>
-			<destination>{62276609-d579-45f6-9f5b-94fc2dbe6d7b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{71d1dca8-970a-4b2e-917c-fbf1b0db8229}" />
@@ -213,39 +215,16 @@
 	<object class="MixerBusPanner" id="{78428517-317c-4332-8531-cc36227b03ca}" />
 	<object class="ThreeEQEffect" id="{7b1383d5-55e6-4456-9c79-1d1dc83060ea}">
 		<property name="lowGain">
-			<value>-5.5</value>
+			<value>-17</value>
 		</property>
 		<property name="midGain">
-			<value>-1</value>
+			<value>-7.5</value>
+		</property>
+		<property name="highGain">
+			<value>6</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{b9b71894-e34c-46ae-8e34-67ab0ca338a1}" />
-	<object class="SFXReverbEffect" id="{62276609-d579-45f6-9f5b-94fc2dbe6d7b}">
-		<property name="decayTime">
-			<value>2900</value>
-		</property>
-		<property name="earlyDelay">
-			<value>15</value>
-		</property>
-		<property name="lateDelay">
-			<value>22</value>
-		</property>
-		<property name="HFDecayRatio">
-			<value>100</value>
-		</property>
-		<property name="highCut">
-			<value>20000</value>
-		</property>
-		<property name="earlyLateMix">
-			<value>59</value>
-		</property>
-		<property name="wetLevel">
-			<value>-80</value>
-		</property>
-		<property name="dryLevel">
-			<value>-6</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{6bd680ae-d9e8-476a-a950-850d8c071892}">
 		<property name="position">
 			<value>0</value>

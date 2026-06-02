@@ -93,8 +93,14 @@
 	<object class="MixerBusPanner" id="{d2c54d59-d7d3-4905-90f5-69cb0b07fcdc}" />
 	<object class="SingleSound" id="{c3e5b897-a14a-4808-bec5-3ef3103a47e6}">
 		<property name="length">
-			<value>1.8571458333333333</value>
+			<value>1.8498023373357972</value>
 		</property>
+		<property name="timelockedOffset">
+			<value>0.0073434959975369439</value>
+		</property>
+		<relationship name="fadeInCurve">
+			<destination>{5b99c62a-5023-42f4-a9ec-9fb90fcdc8db}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{d80998f7-3f2d-4b40-b149-a86197ae1cba}</destination>
 		</relationship>
@@ -121,6 +127,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{51a5246b-4915-4b9c-bff9-44d360bbde5b}" />
 	<object class="MixerBusFader" id="{84458051-4d90-46ad-b065-5a0caca849be}" />
+	<object class="FadeCurve" id="{5b99c62a-5023-42f4-a9ec-9fb90fcdc8db}">
+		<relationship name="startPoint">
+			<destination>{9ab9d522-9150-4135-8d7f-5b0e2ec7482a}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{72634d09-db91-4f2b-b166-0c8ace4cf673}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{e8f7cb1d-d5b7-4f9d-bdb7-1879f6c1f604}">
 		<relationship name="effects">
 			<destination>{3ce2c93d-66e7-4f6f-954d-d6b72a6d0bab}</destination>
@@ -130,6 +144,25 @@
 	<object class="MixerBusPanner" id="{2e99f981-3cb1-4b30-b5d4-cfba5f3e4a6e}" />
 	<object class="MixerBusFader" id="{ec9cb7d0-d293-4c86-88b6-f6802046e752}" />
 	<object class="SpatialiserEffect" id="{fef0d10f-6fa5-4803-bf92-344c5305f02c}" />
+	<object class="AutomationPoint" id="{9ab9d522-9150-4135-8d7f-5b0e2ec7482a}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.220539406</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{72634d09-db91-4f2b-b166-0c8ace4cf673}">
+		<property name="position">
+			<value>0.069808867850301048</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{3ce2c93d-66e7-4f6f-954d-d6b72a6d0bab}" />
 	<object class="ThreeEQEffect" id="{9f8f662f-5b43-490c-818c-065521dd87f6}">
 		<property name="midGain">

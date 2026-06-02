@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{7331a87e-423f-4c1e-8fe2-9586f4251ac9}">
+	<object class="AudioFile" id="{a73ee9fd-7a34-47c6-87d8-af55be634549}">
 		<property name="assetPath">
-			<value>Enviornment/Acid_loop (2).wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>Player/PlayerMelee.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>12.129458333333334</value>
+			<value>0.97766666666666668</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>

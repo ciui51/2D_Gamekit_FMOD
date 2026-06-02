@@ -8,7 +8,7 @@
 			<value>BossLaser</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7b9e287a-ad70-4283-b651-a436105bccc0}</destination>
@@ -119,6 +119,7 @@
 	<object class="MixerBusEffectChain" id="{92fc00fe-998d-4eb3-b18b-7fc39712a548}">
 		<relationship name="effects">
 			<destination>{409ef38c-808b-4209-91fa-2e5b88e5ee74}</destination>
+			<destination>{bb32ebb0-b256-499d-b2fe-29a86003107f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{92036dd0-ad7c-4093-9984-8bd1f9fcafe5}" />
@@ -131,6 +132,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{292ff225-23ed-49c5-994f-4d89aea997dd}" />
 	<object class="MixerBusFader" id="{409ef38c-808b-4209-91fa-2e5b88e5ee74}" />
+	<object class="SpatialiserEffect" id="{bb32ebb0-b256-499d-b2fe-29a86003107f}" />
 	<object class="ThreeEQEffect" id="{b1dc0781-3986-4b4c-a127-5b5d64dc7672}">
 		<property name="lowGain">
 			<value>-2</value>

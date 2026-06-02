@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{0274a270-f520-4830-81b6-8985615a6d12}">
 		<property name="assetPath">
-			<value>StoneDoorOpeningLoop.wav</value>
+			<value>Door Opening/StoneDoorOpeningLoop.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

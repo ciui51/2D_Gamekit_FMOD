@@ -139,6 +139,9 @@
 		<property name="triggerProbabilityEnabled">
 			<value>true</value>
 		</property>
+		<property name="triggerProbability">
+			<value>55</value>
+		</property>
 		<property name="triggerConditionMode">
 			<value>1</value>
 		</property>
@@ -155,10 +158,10 @@
 			<value>0</value>
 		</property>
 		<property name="minimumTimeDelay">
-			<value>980</value>
+			<value>2200</value>
 		</property>
 		<property name="maximumTimeDelay">
-			<value>4800</value>
+			<value>6200</value>
 		</property>
 		<property name="looping">
 			<value>true</value>

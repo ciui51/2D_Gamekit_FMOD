@@ -4,9 +4,6 @@
 		<property name="color">
 			<value>Yellow Light 1</value>
 		</property>
-		<property name="volume">
-			<value>-5</value>
-		</property>
 		<property name="name">
 			<value>P_land</value>
 		</property>

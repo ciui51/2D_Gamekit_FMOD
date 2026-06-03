@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{b6b61e64-1ee6-4294-b156-d8ff5f522b67}">
+		<property name="volume">
+			<value>-13.1999998</value>
+		</property>
 		<property name="name">
 			<value>BGM_Cave</value>
 		</property>

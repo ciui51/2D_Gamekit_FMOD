@@ -5,7 +5,7 @@
 			<value>Yellow Light 1</value>
 		</property>
 		<property name="volume">
-			<value>-13</value>
+			<value>-10</value>
 		</property>
 		<property name="name">
 			<value>P_melee</value>

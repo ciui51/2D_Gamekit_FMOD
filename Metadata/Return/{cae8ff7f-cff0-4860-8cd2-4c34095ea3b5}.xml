@@ -43,6 +43,9 @@
 		<property name="wetLevel">
 			<value>-11.3000002</value>
 		</property>
+		<property name="dryLevel">
+			<value>-8</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{70b1fcc9-f7c2-4f88-80f2-2b83832a6bc9}" />
 </objects>

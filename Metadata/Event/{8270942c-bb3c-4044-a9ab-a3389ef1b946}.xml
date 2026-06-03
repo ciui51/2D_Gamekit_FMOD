@@ -101,6 +101,9 @@
 		<property name="length">
 			<value>0.57065645012315291</value>
 		</property>
+		<property name="volume">
+			<value>5.5</value>
+		</property>
 		<relationship name="fadeInCurve">
 			<destination>{806fa9db-82f8-415b-aeaa-f32e77a0820f}</destination>
 		</relationship>
@@ -112,6 +115,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{aeab8313-3cf0-4083-9d99-6c8fae576f2b}">
+		<property name="volume">
+			<value>3.5</value>
+		</property>
 		<property name="name">
 			<value>Jump</value>
 		</property>

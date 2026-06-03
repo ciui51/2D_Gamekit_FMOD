@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{dc89fd53-3439-43c4-ab25-f321f77a83bc}">
+		<property name="color">
+			<value>Red Light 1</value>
+		</property>
 		<property name="name">
 			<value>BossSteam</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7b9e287a-ad70-4283-b651-a436105bccc0}</destination>
@@ -62,6 +65,10 @@
 	<object class="EventAutomatableProperties" id="{e18beb16-f288-455c-b8d7-f0f9ad1ef19e}" />
 	<object class="MarkerTrack" id="{da9cc8d5-6a30-4eba-9fd8-7881d348309d}" />
 	<object class="GroupTrack" id="{f028a8ac-7207-4d47-a291-a43f38f12948}">
+		<relationship name="modules">
+			<destination>{45e12e28-02b9-41f9-a34e-c3a127cceec0}</destination>
+			<destination>{687a0843-f691-4fb1-9cf9-3d0199349b14}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{4fe1779e-8575-4b1c-8813-a33565445955}</destination>
 		</relationship>
@@ -72,6 +79,10 @@
 		</property>
 	</object>
 	<object class="ParameterProxy" id="{564de079-bddc-439a-a14a-fea60a113657}">
+		<relationship name="modules">
+			<destination>{45e12e28-02b9-41f9-a34e-c3a127cceec0}</destination>
+			<destination>{687a0843-f691-4fb1-9cf9-3d0199349b14}</destination>
+		</relationship>
 		<relationship name="preset">
 			<destination>{03dee000-047f-4095-af5b-30b1d385c3ba}</destination>
 		</relationship>
@@ -93,6 +104,25 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b24e836f-427c-4166-99dd-902793dc69b7}" />
+	<object class="SingleSound" id="{45e12e28-02b9-41f9-a34e-c3a127cceec0}">
+		<property name="start">
+			<value>1</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{1e94da30-16ff-4a49-a2a1-967069468937}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{687a0843-f691-4fb1-9cf9-3d0199349b14}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<property name="pitch">
+			<value>-2.20000005</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{a9055153-0061-4990-b1ce-fb7bde59f42f}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{4fe1779e-8575-4b1c-8813-a33565445955}">
 		<property name="name">
 			<value>BossSteam</value>
@@ -110,16 +140,55 @@
 	<object class="MixerBusEffectChain" id="{b7841844-1b9b-457c-9ae2-133b9c72902b}">
 		<relationship name="effects">
 			<destination>{f8b7464c-e906-49c7-a7b6-a6db29f3e6e8}</destination>
+			<destination>{36642b9f-3de4-43bc-8e9e-419354909774}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{238086b7-332e-49b5-abcd-01582e41d386}" />
 	<object class="MixerBusFader" id="{e7c5d6df-9045-47fe-93d0-efd6830dc599}" />
 	<object class="MixerBusEffectChain" id="{57258ab1-2379-46f0-ad8a-804723ee9f3a}">
 		<relationship name="effects">
+			<destination>{92d59a94-b17b-4368-8dd7-03fe57a0371f}</destination>
 			<destination>{14c43fa5-36f5-4466-96fd-aa0ebe77a488}</destination>
+			<destination>{dff929c5-058a-4672-a7f3-6f1d66bab5f4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{803c6feb-64bf-496b-af04-6e715587875f}" />
 	<object class="MixerBusFader" id="{f8b7464c-e906-49c7-a7b6-a6db29f3e6e8}" />
+	<object class="SpatialiserEffect" id="{36642b9f-3de4-43bc-8e9e-419354909774}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>17.5</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{92d59a94-b17b-4368-8dd7-03fe57a0371f}">
+		<property name="lowGain">
+			<value>-9</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{14c43fa5-36f5-4466-96fd-aa0ebe77a488}" />
+	<object class="SFXReverbEffect" id="{dff929c5-058a-4672-a7f3-6f1d66bab5f4}">
+		<property name="decayTime">
+			<value>350</value>
+		</property>
+		<property name="earlyDelay">
+			<value>15</value>
+		</property>
+		<property name="lateDelay">
+			<value>22</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>100</value>
+		</property>
+		<property name="highCut">
+			<value>20000</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>59</value>
+		</property>
+		<property name="wetLevel">
+			<value>-11.3000002</value>
+		</property>
+	</object>
 </objects>

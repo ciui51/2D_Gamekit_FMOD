@@ -135,7 +135,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6b97be95-a742-4dda-80ac-a1214374daae}">
 		<property name="volume">
-			<value>1.5</value>
+			<value>6</value>
 		</property>
 		<property name="name">
 			<value>Footstep</value>
@@ -172,7 +172,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{a1e5cec8-0278-4591-a71d-c3403ab9124e}">
 		<property name="volume">
-			<value>-22</value>
+			<value>-16.5</value>
 		</property>
 		<property name="name">
 			<value>FootstepOomph</value>
@@ -219,7 +219,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{188d5510-9590-4df6-a7bf-0907c51aa8ba}">
 		<property name="volume">
-			<value>-21</value>
+			<value>-10</value>
 		</property>
 		<property name="name">
 			<value>Metalic</value>

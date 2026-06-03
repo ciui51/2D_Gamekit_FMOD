@@ -8,7 +8,7 @@
 			<value>BossTakeDamage</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7b9e287a-ad70-4283-b651-a436105bccc0}</destination>
@@ -140,9 +140,18 @@
 	<object class="MixerBusEffectChain" id="{266d5192-34b1-494a-aca4-4985f8d896d1}">
 		<relationship name="effects">
 			<destination>{15bd200b-dae6-42d3-bd0c-e74c315ef774}</destination>
+			<destination>{6fc56937-c3de-443f-9986-69bd462c5e1e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{01c3a71a-dd9e-448b-b1aa-9bb640be2f6b}" />
 	<object class="MixerBusFader" id="{7a4d99b2-ba17-46b4-9216-69be5537c1bc}" />
 	<object class="MixerBusFader" id="{15bd200b-dae6-42d3-bd0c-e74c315ef774}" />
+	<object class="SpatialiserEffect" id="{6fc56937-c3de-443f-9986-69bd462c5e1e}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>7.5</value>
+		</property>
+	</object>
 </objects>

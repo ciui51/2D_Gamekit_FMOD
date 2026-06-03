@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{26eacc6d-c30f-49f9-a41b-c6f219bffd7c}">
+		<property name="color">
+			<value>Red Light 1</value>
+		</property>
 		<property name="name">
 			<value>BossDie</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7b9e287a-ad70-4283-b651-a436105bccc0}</destination>
@@ -90,7 +93,10 @@
 	<object class="MixerBusPanner" id="{e75a5021-79f2-40b7-9dc1-cfcae4473bb7}" />
 	<object class="SingleSound" id="{ae8cf648-f81e-45c8-a869-47591cccea5a}">
 		<property name="length">
-			<value>8.1473125</value>
+			<value>7.1472934369868621</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>1.0000190630131363</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{e35546e7-324e-494a-9e48-7b5802094f78}</destination>
@@ -113,6 +119,7 @@
 	<object class="MixerBusEffectChain" id="{d7fe80f7-8510-4ec8-8203-7017edd145ed}">
 		<relationship name="effects">
 			<destination>{1689c0f3-468a-4a39-8641-b7b2afcac7b1}</destination>
+			<destination>{b6cc5827-4527-4ba4-9e28-9d1f82d1756b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d3b8368e-4cfc-4a52-b72f-145141d629b0}" />
@@ -124,5 +131,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{37fcf4ba-5857-4aaa-9f42-5ace483d5d89}" />
 	<object class="MixerBusFader" id="{1689c0f3-468a-4a39-8641-b7b2afcac7b1}" />
+	<object class="SpatialiserEffect" id="{b6cc5827-4527-4ba4-9e28-9d1f82d1756b}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>9</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{850dfcb5-fa98-461a-8030-cf171dd39cd3}" />
 </objects>

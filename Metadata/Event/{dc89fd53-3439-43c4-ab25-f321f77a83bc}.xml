@@ -159,7 +159,7 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>17.5</value>
+			<value>44</value>
 		</property>
 	</object>
 	<object class="ThreeEQEffect" id="{92d59a94-b17b-4368-8dd7-03fe57a0371f}">

@@ -5,7 +5,7 @@
 			<value>Red Light 1</value>
 		</property>
 		<property name="volume">
-			<value>-19</value>
+			<value>-20.5</value>
 		</property>
 		<property name="name">
 			<value>E_walk</value>

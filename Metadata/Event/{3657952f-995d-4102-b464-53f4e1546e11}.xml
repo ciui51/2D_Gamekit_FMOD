@@ -117,6 +117,9 @@
 		<property name="length">
 			<value>146.14285416666667</value>
 		</property>
+		<property name="volume">
+			<value>4.5</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -126,7 +129,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{8e3c2e38-b972-43be-a006-b9e5f0d5356b}">
 		<property name="volume">
-			<value>1</value>
+			<value>4</value>
 		</property>
 		<property name="name">
 			<value>Cave</value>
@@ -195,6 +198,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{0b2e53e9-984f-44cd-b3ad-3019cb8077d4}">
+		<property name="volume">
+			<value>4.5</value>
+		</property>
 		<property name="name">
 			<value>Droplet</value>
 		</property>
@@ -303,8 +309,14 @@
 	<object class="MixerBusFader" id="{204a6099-0112-4d25-bab4-e682dd35d91f}" />
 	<object class="MixerBusFader" id="{829fccb6-f072-4b09-9226-76315145b0c6}" />
 	<object class="ThreeEQEffect" id="{04c3dcb5-5a9f-483d-9086-b815538f8afa}">
+		<property name="lowGain">
+			<value>3</value>
+		</property>
 		<property name="midGain">
-			<value>-14</value>
+			<value>-26</value>
+		</property>
+		<property name="highGain">
+			<value>-6.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{2a5fc736-f497-48f2-89fa-6411aa6c57a2}" />

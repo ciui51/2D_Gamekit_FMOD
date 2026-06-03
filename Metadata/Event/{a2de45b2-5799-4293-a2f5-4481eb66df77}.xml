@@ -154,7 +154,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{df429a26-51ed-4980-838f-3d4e934234bd}">
 		<property name="volume">
-			<value>-9.5</value>
+			<value>-5.5</value>
 		</property>
 		<property name="name">
 			<value>Grass</value>
@@ -204,7 +204,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{678cc146-7dc2-4856-a3ef-82c2eb177029}">
 		<property name="volume">
-			<value>-3.5</value>
+			<value>0.5</value>
 		</property>
 		<property name="name">
 			<value>Rock</value>
@@ -255,7 +255,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{5ba34875-37e6-43f2-860f-ebd35227da11}">
 		<property name="volume">
-			<value>1</value>
+			<value>3.5</value>
 		</property>
 		<property name="name">
 			<value>Metal</value>

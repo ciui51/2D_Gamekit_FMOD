@@ -101,6 +101,9 @@
 		<property name="pitch">
 			<value>-0.900000036</value>
 		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{0e1830e6-17b3-4c80-b3bd-d30aa838c96f}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{2192a8e9-48db-4e6b-a7d6-4166f11c54aa}</destination>
 			<destination>{86ecc7dc-f3c2-42bb-a5b0-6d93d36a1200}</destination>
@@ -109,6 +112,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b208a886-6227-420e-8ae5-ad0ffd942d81}">
+		<property name="volume">
+			<value>0.5</value>
+		</property>
 		<property name="name">
 			<value>PlayerLand</value>
 		</property>
@@ -129,6 +135,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{3c558c52-c0a9-43fd-bfe3-793616d58026}" />
 	<object class="MixerBusFader" id="{1907de79-00e0-48ab-bbd3-026b99516932}" />
+	<object class="FadeCurve" id="{0e1830e6-17b3-4c80-b3bd-d30aa838c96f}">
+		<relationship name="startPoint">
+			<destination>{c9d717c8-4843-4dae-88c0-7e0dd763fe47}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{8cdf99da-76d7-4dec-9511-403d002f44ed}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{2192a8e9-48db-4e6b-a7d6-4166f11c54aa}">
 		<relationship name="audioFile">
 			<destination>{d4e33ad4-5132-43ba-ad33-4b355de69b61}</destination>
@@ -157,15 +171,34 @@
 	</object>
 	<object class="MixerBusPanner" id="{e04653db-ce99-40f5-9316-78b42335ee38}" />
 	<object class="MixerBusFader" id="{f7531d81-799a-46c3-bbe6-681af379266d}" />
+	<object class="AutomationPoint" id="{c9d717c8-4843-4dae-88c0-7e0dd763fe47}">
+		<property name="position">
+			<value>0.28000000000000003</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.327614605</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{8cdf99da-76d7-4dec-9511-403d002f44ed}">
+		<property name="position">
+			<value>0.6875</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="ThreeEQEffect" id="{9a8a4704-ae98-4608-9278-67d26f049500}">
 		<property name="lowGain">
-			<value>-23</value>
+			<value>-12</value>
 		</property>
 		<property name="midGain">
-			<value>-1</value>
+			<value>-6</value>
 		</property>
 		<property name="highGain">
-			<value>-8</value>
+			<value>-2</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{57cde0dd-992f-465a-b00e-ec266bdc03eb}" />

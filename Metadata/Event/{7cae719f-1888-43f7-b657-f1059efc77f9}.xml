@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7cae719f-1888-43f7-b657-f1059efc77f9}">
+		<property name="color">
+			<value>Red Light 1</value>
+		</property>
 		<property name="name">
 			<value>SpitterAttack</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7b9e287a-ad70-4283-b651-a436105bccc0}</destination>
@@ -59,11 +62,18 @@
 	<object class="EventAutomatableProperties" id="{bc652bcf-040a-49cd-a198-db06c1df4e2b}" />
 	<object class="MarkerTrack" id="{99455793-1a41-419f-a80a-087bddfd62a4}" />
 	<object class="GroupTrack" id="{39b34b9a-5046-436a-b283-52882f32247a}">
+		<relationship name="modules">
+			<destination>{1a2768a2-fd85-4609-babb-1d77c1f55e55}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{307af9fb-7048-45ff-af9a-3b01737dc2a3}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{c0ab9e97-262f-420a-8261-40035c41a268}" />
+	<object class="Timeline" id="{c0ab9e97-262f-420a-8261-40035c41a268}">
+		<relationship name="modules">
+			<destination>{1a2768a2-fd85-4609-babb-1d77c1f55e55}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{584e2145-4b22-4651-8c98-8c58c47ab6ea}">
 		<relationship name="effectChain">
 			<destination>{1d08ab35-27f2-40d1-823e-ce4eeefb178f}</destination>
@@ -81,6 +91,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4c770af4-6cfb-4db9-8738-5e5285dcd189}" />
+	<object class="MultiSound" id="{1a2768a2-fd85-4609-babb-1d77c1f55e55}">
+		<property name="length">
+			<value>0.47322916666666665</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{9cc877e1-3c55-4211-aa46-fa09873776cb}</destination>
+			<destination>{7ed69336-4b1a-49a3-ba73-af4059853ce3}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{307af9fb-7048-45ff-af9a-3b01737dc2a3}">
 		<property name="name">
 			<value>Spit</value>
@@ -102,12 +121,31 @@
 	</object>
 	<object class="MixerBusPanner" id="{61e459bc-253e-462a-ae9c-389b6773fa80}" />
 	<object class="MixerBusFader" id="{c091bba3-58de-44f3-9bec-e8496d14ec84}" />
+	<object class="SingleSound" id="{9cc877e1-3c55-4211-aa46-fa09873776cb}">
+		<relationship name="audioFile">
+			<destination>{1d7faa10-b1a5-4bc8-b019-efd854d2e7a3}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{7ed69336-4b1a-49a3-ba73-af4059853ce3}">
+		<relationship name="audioFile">
+			<destination>{f026a0d5-a54b-4d79-b32b-9521d340bcb0}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{1888c3dc-9a50-469f-8fbd-99f1eeacb9f9}">
 		<relationship name="effects">
 			<destination>{9fbd2ce4-aad5-4200-b16f-8aa8c23047b6}</destination>
+			<destination>{33197c9b-56df-4b9a-8d22-cd2dbdec3967}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{70e6c41d-a6fd-4664-ab71-ea6b9dcd0bce}" />
 	<object class="MixerBusFader" id="{492b7747-a09c-4eba-bae4-cfab9f35b525}" />
 	<object class="MixerBusFader" id="{9fbd2ce4-aad5-4200-b16f-8aa8c23047b6}" />
+	<object class="SpatialiserEffect" id="{33197c9b-56df-4b9a-8d22-cd2dbdec3967}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>0.349999994</value>
+		</property>
+	</object>
 </objects>

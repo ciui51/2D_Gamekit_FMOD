@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{f026a0d5-a54b-4d79-b32b-9521d340bcb0}">
+	<object class="AudioFile" id="{140fe9a2-328f-4d9a-9638-de6fc7a613a9}">
 		<property name="assetPath">
-			<value>Enemy/Spit2.wav</value>
+			<value>Shield2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.47322916666666665</value>
+			<value>39.65625</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>

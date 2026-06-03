@@ -99,8 +99,17 @@
 	<object class="MixerBusPanner" id="{0c8c1d53-5382-4360-920a-ecaa4ddda5b4}" />
 	<object class="SingleSound" id="{bd38bbe6-1be0-4a92-ae4f-863e1bc0b0bc}">
 		<property name="length">
-			<value>0.78125</value>
+			<value>0.4198096264367816</value>
 		</property>
+		<property name="pitch">
+			<value>-0.200000003</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{bd55a953-d3e9-4c0d-a1a0-5b3ed529eb30}</destination>
+		</relationship>
+		<relationship name="fadeOutCurve">
+			<destination>{59153588-5c09-489a-8748-eb67a419fcdd}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{cd735816-7a75-4954-aef6-bdadccc5c26c}</destination>
 		</relationship>
@@ -127,6 +136,22 @@
 	</object>
 	<object class="MixerBusPanner" id="{9b6cb8a7-6ac9-4708-9eae-2c14a88fbc1c}" />
 	<object class="MixerBusFader" id="{aa538d19-6ae1-48ba-bbf6-2dd3d0e2392c}" />
+	<object class="RandomizerModulator" id="{bd55a953-d3e9-4c0d-a1a0-5b3ed529eb30}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>7.5</value>
+		</property>
+	</object>
+	<object class="FadeCurve" id="{59153588-5c09-489a-8748-eb67a419fcdd}">
+		<relationship name="startPoint">
+			<destination>{df5e4acc-f5b1-4315-90e4-b87715ea3285}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{ea7b7ad2-4c99-4a5d-9a39-466fbec0f26c}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{01a93899-2b5a-4bd7-8285-e3f58a4f5950}">
 		<relationship name="effects">
 			<destination>{11a03e29-4ec2-4857-a400-a1381d4c5d9a}</destination>
@@ -136,13 +161,29 @@
 	<object class="MixerBusFader" id="{4144dde9-08ad-4f48-83d5-6199fcd91c7d}" />
 	<object class="ThreeEQEffect" id="{de40bfaa-ef7a-4cab-a3bb-8af7c1c0cc99}">
 		<property name="lowGain">
-			<value>-1</value>
-		</property>
-		<property name="midGain">
-			<value>1</value>
+			<value>-0.5</value>
 		</property>
 		<property name="highGain">
-			<value>-6</value>
+			<value>-2.5</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{df5e4acc-f5b1-4315-90e4-b87715ea3285}">
+		<property name="position">
+			<value>0.13458487274220032</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.41300112</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{ea7b7ad2-4c99-4a5d-9a39-466fbec0f26c}">
+		<property name="position">
+			<value>0.4198096264367816</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{11a03e29-4ec2-4857-a400-a1381d4c5d9a}" />

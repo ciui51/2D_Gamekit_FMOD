@@ -4,6 +4,9 @@
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<property name="name">
 			<value>B_blixt</value>
 		</property>

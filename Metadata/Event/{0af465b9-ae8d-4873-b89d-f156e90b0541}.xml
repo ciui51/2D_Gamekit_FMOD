@@ -99,7 +99,7 @@
 			<value>0.00054789731490885354</value>
 		</property>
 		<property name="pitch">
-			<value>-1.39999998</value>
+			<value>-1.80000007</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{b6f5f446-2de4-4786-8b04-0bc847352701}</destination>
@@ -186,7 +186,7 @@
 	</object>
 	<object class="AutomationPoint" id="{0699c783-d1e7-452c-bed9-7328fcddcf65}">
 		<property name="position">
-			<value>0.42574625822222317</value>
+			<value>0.82000000000000006</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -197,7 +197,7 @@
 	</object>
 	<object class="AutomationPoint" id="{1756fa07-d410-42be-bb73-af106561e781}">
 		<property name="position">
-			<value>1.6257462582222229</value>
+			<value>1.6257462582222233</value>
 		</property>
 		<property name="value">
 			<value>0</value>

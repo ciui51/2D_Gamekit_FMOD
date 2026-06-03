@@ -5,7 +5,7 @@
 			<value>Red Light 1</value>
 		</property>
 		<property name="volume">
-			<value>-8.5</value>
+			<value>-6.5</value>
 		</property>
 		<property name="name">
 			<value>B_lazer</value>

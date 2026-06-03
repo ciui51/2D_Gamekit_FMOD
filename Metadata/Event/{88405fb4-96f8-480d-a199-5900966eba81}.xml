@@ -167,7 +167,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3afdbd8f-4ab5-43fb-a815-35624598d70c}">
 		<property name="volume">
-			<value>-9</value>
+			<value>-4.5</value>
 		</property>
 		<property name="name">
 			<value>Crystal</value>
@@ -301,7 +301,6 @@
 	<object class="MixerBusEffectChain" id="{e564f85a-d64d-4921-ac08-c150f8104d00}">
 		<relationship name="effects">
 			<destination>{068854ae-355f-4a8c-a153-48b125a41de0}</destination>
-			<destination>{0e53a1d8-ff18-405f-b938-3c1285f9ac06}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6ce008b4-388a-44e4-a87a-e567cc451c2c}" />
@@ -315,12 +314,12 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.220539406</value>
+			<value>0.0796555877</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{3556585b-87bf-4950-abd6-19647ad6c133}">
 		<property name="position">
-			<value>0.14000000000000001</value>
+			<value>0.13</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -328,7 +327,7 @@
 	</object>
 	<object class="AutomationPoint" id="{904274d0-3e2d-4150-875a-e80beb3e64c8}">
 		<property name="position">
-			<value>0.17558827014117506</value>
+			<value>0.14999999999999999</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -348,7 +347,7 @@
 	<object class="MixerBusFader" id="{694f9543-268e-40ea-b382-5bd63f376654}" />
 	<object class="AutomationPoint" id="{e366a208-f653-4505-933c-542ff7232b57}">
 		<property name="position">
-			<value>0.17999999999999999</value>
+			<value>0.11</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -359,37 +358,11 @@
 	</object>
 	<object class="AutomationPoint" id="{dfb80aac-1eb3-43a4-863a-d6c6dd79d318}">
 		<property name="position">
-			<value>0.46999999999999997</value>
+			<value>0.47000000000000003</value>
 		</property>
 		<property name="value">
 			<value>0</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{068854ae-355f-4a8c-a153-48b125a41de0}" />
-	<object class="SFXReverbEffect" id="{0e53a1d8-ff18-405f-b938-3c1285f9ac06}">
-		<property name="decayTime">
-			<value>2900</value>
-		</property>
-		<property name="earlyDelay">
-			<value>15</value>
-		</property>
-		<property name="lateDelay">
-			<value>22</value>
-		</property>
-		<property name="HFDecayRatio">
-			<value>100</value>
-		</property>
-		<property name="highCut">
-			<value>20000</value>
-		</property>
-		<property name="earlyLateMix">
-			<value>59</value>
-		</property>
-		<property name="wetLevel">
-			<value>-39</value>
-		</property>
-		<property name="dryLevel">
-			<value>-11.5</value>
-		</property>
-	</object>
 </objects>

@@ -155,7 +155,7 @@
 			<value>0.039363566850129858</value>
 		</property>
 		<property name="pitch">
-			<value>-7</value>
+			<value>-3.20000005</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{ca479413-7b7d-45de-8835-2ef1480b77d1}</destination>
@@ -315,7 +315,7 @@
 	</object>
 	<object class="AutomationPoint" id="{c7f8fe05-b00c-4a22-9e0a-461ea69581e2}">
 		<property name="position">
-			<value>0.084999999999999992</value>
+			<value>0.059999999999999998</value>
 		</property>
 		<property name="value">
 			<value>1</value>

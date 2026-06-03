@@ -114,6 +114,9 @@
 		<property name="length">
 			<value>146.14285416666667</value>
 		</property>
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -160,12 +163,18 @@
 		<property name="maximumTimeDelay">
 			<value>6200</value>
 		</property>
+		<property name="pitch">
+			<value>-0.479999989</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
 		<property name="playlistMode">
 			<value>1</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{5800f216-95ab-4d5b-a1ba-29f62904272c}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{d3352822-01ec-4522-a235-9309c06d48f0}</destination>
 			<destination>{abb87a51-441c-40eb-9728-66cb7b17a71c}</destination>
@@ -181,7 +190,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{0b2e53e9-984f-44cd-b3ad-3019cb8077d4}">
 		<property name="volume">
-			<value>-13</value>
+			<value>-3.5</value>
 		</property>
 		<property name="name">
 			<value>Droplet</value>
@@ -224,6 +233,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a67a2ebc-f8bf-48e1-b707-7ea31455f868}" />
+	<object class="RandomizerModulator" id="{5800f216-95ab-4d5b-a1ba-29f62904272c}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>15</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{d3352822-01ec-4522-a235-9309c06d48f0}">
 		<relationship name="audioFile">
 			<destination>{e761c691-c979-4c51-97f8-6a54cf31679c}</destination>

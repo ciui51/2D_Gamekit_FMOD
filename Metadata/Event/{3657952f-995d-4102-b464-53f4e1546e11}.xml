@@ -67,7 +67,7 @@
 	<object class="MarkerTrack" id="{246b18ba-6629-4a93-8998-143e02e0a5e3}" />
 	<object class="GroupTrack" id="{934cca30-6048-4844-a157-d18448b72cb3}">
 		<relationship name="modules">
-			<destination>{e159cb98-d1c0-4a21-b015-6b91674df86f}</destination>
+			<destination>{92fe3473-42e1-4145-a07b-a1079e28b3a8}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{8e3c2e38-b972-43be-a006-b9e5f0d5356b}</destination>
@@ -83,8 +83,8 @@
 	</object>
 	<object class="Timeline" id="{bc0a3eaf-3f22-43d8-91b1-e2bfc232e825}">
 		<relationship name="modules">
-			<destination>{e159cb98-d1c0-4a21-b015-6b91674df86f}</destination>
 			<destination>{0358fb77-8abd-4d11-8dfa-6e27e9c0fb95}</destination>
+			<destination>{92fe3473-42e1-4145-a07b-a1079e28b3a8}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{ccefc5cc-08ff-4f5c-9967-cca535962ad5}</destination>
@@ -107,24 +107,27 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5affc197-4ca9-4583-8cc9-b71975df3093}" />
-	<object class="SingleSound" id="{e159cb98-d1c0-4a21-b015-6b91674df86f}">
+	<object class="SingleSound" id="{92fe3473-42e1-4145-a07b-a1079e28b3a8}">
 		<property name="isAsync">
+			<value>true</value>
+		</property>
+		<property name="isCutoff">
 			<value>true</value>
 		</property>
 		<property name="length">
 			<value>146.14285416666667</value>
 		</property>
-		<property name="volume">
-			<value>3</value>
-		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{7f4a7898-4fc6-4958-8e75-1fae8888c9f6}</destination>
+			<destination>{c6bf24f6-22ad-4bf8-8c1a-3779ec93e047}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8e3c2e38-b972-43be-a006-b9e5f0d5356b}">
+		<property name="volume">
+			<value>1</value>
+		</property>
 		<property name="name">
 			<value>Cave</value>
 		</property>
@@ -163,6 +166,9 @@
 		<property name="maximumTimeDelay">
 			<value>6200</value>
 		</property>
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<property name="pitch">
 			<value>-0.479999989</value>
 		</property>
@@ -189,9 +195,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{0b2e53e9-984f-44cd-b3ad-3019cb8077d4}">
-		<property name="volume">
-			<value>-3.5</value>
-		</property>
 		<property name="name">
 			<value>Droplet</value>
 		</property>

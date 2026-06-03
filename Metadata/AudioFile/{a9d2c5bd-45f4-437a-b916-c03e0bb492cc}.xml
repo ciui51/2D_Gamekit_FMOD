@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{a9d2c5bd-45f4-437a-b916-c03e0bb492cc}">
 		<property name="assetPath">
-			<value>Pre Boss Cutscene.wav</value>
+			<value>Cutscenes/Pre Boss Cutscene.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

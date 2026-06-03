@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{08b5be32-99ea-41f7-9084-5a8cb70d9df5}">
+	<object class="AudioFile" id="{c6bf24f6-22ad-4bf8-8c1a-3779ec93e047}">
 		<property name="assetPath">
-			<value>Spit.wav</value>
+			<value>Enviornment/Cave_loop2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.47322916666666665</value>
+			<value>26.160708333333332</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>

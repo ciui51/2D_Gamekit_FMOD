@@ -178,7 +178,7 @@
 	</object>
 	<object class="AutomationPoint" id="{183deb4f-0e66-4931-84f7-53a49c14170f}">
 		<property name="position">
-			<value>0.059999999999999998</value>
+			<value>0.074999999999999997</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -198,13 +198,13 @@
 	<object class="MixerBusFader" id="{86d5b524-b1e2-410b-a383-4a6f80d67dba}" />
 	<object class="ThreeEQEffect" id="{3a625c5c-ed00-4b99-9ff9-47737f6642bf}">
 		<property name="lowGain">
-			<value>-40</value>
+			<value>-21.5</value>
 		</property>
 		<property name="midGain">
-			<value>-19.5</value>
+			<value>-10</value>
 		</property>
 		<property name="highGain">
-			<value>-0.5</value>
+			<value>-3</value>
 		</property>
 	</object>
 </objects>

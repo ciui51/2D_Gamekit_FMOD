@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{55662cfe-dea3-4631-8f50-e91371001af6}">
+		<property name="color">
+			<value>Red Light 1</value>
+		</property>
 		<property name="name">
 			<value>EnemyKilled</value>
 		</property>
@@ -72,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9b45ba11-8bd8-4811-a8e8-d06b3b5fa0d8}">
+		<property name="pitch">
+			<value>1.20000005</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{5648b01d-a21b-4539-972f-b0b685d46f9c}</destination>
 		</relationship>

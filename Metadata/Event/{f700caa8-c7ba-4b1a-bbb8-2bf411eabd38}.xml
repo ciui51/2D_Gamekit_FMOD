@@ -102,7 +102,7 @@
 			<value>0.01693349753694582</value>
 		</property>
 		<property name="pitch">
-			<value>-2.79999995</value>
+			<value>-0.699999988</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{a0777586-df5e-488b-bc3d-11e133d99892}</destination>
@@ -118,9 +118,15 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f067e017-0ebf-49f4-897b-06d1c543cd7b}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>Splash</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{34cd00fc-ee3e-4ac0-a923-074fd63819d5}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{b5a022c5-8b98-4edc-aab3-5d71990b2fac}</destination>
 		</relationship>
@@ -144,7 +150,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>11</value>
+			<value>4.5</value>
 		</property>
 	</object>
 	<object class="FadeCurve" id="{9fee3b42-c4b1-479b-91c1-9c70f25c3025}">
@@ -162,6 +168,11 @@
 		<relationship name="endPoint">
 			<destination>{0be7ff4c-2281-495b-8b0c-ed61095c835b}</destination>
 		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{34cd00fc-ee3e-4ac0-a923-074fd63819d5}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{b5a022c5-8b98-4edc-aab3-5d71990b2fac}">
 		<relationship name="effects">

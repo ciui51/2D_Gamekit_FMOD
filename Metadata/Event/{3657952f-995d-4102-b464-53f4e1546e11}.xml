@@ -63,7 +63,11 @@
 			<destination>{f75e1567-67a5-4790-8687-5d54cbcd4ccc}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{0b769588-01d2-4d4b-aa59-7f88e134a543}" />
+	<object class="EventAutomatableProperties" id="{0b769588-01d2-4d4b-aa59-7f88e134a543}">
+		<property name="triggerCooldown">
+			<value>80</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{246b18ba-6629-4a93-8998-143e02e0a5e3}" />
 	<object class="GroupTrack" id="{934cca30-6048-4844-a157-d18448b72cb3}">
 		<relationship name="modules">
@@ -148,8 +152,8 @@
 		<property name="triggerProbabilityEnabled">
 			<value>true</value>
 		</property>
-		<property name="triggerConditionMode">
-			<value>1</value>
+		<property name="triggerProbability">
+			<value>45</value>
 		</property>
 		<property name="isAsync">
 			<value>true</value>
@@ -160,29 +164,36 @@
 		<property name="length">
 			<value>146.14285416666667</value>
 		</property>
-		<property name="delayType">
-			<value>0</value>
-		</property>
 		<property name="minimumTimeDelay">
-			<value>2200</value>
+			<value>1200</value>
 		</property>
 		<property name="maximumTimeDelay">
 			<value>6200</value>
 		</property>
+		<property name="quantizationInterval">
+			<value>10</value>
+		</property>
+		<property name="startOffset">
+			<value>1.5</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
 		<property name="volume">
-			<value>5</value>
+			<value>6.5</value>
 		</property>
 		<property name="pitch">
-			<value>-0.479999989</value>
+			<value>5</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
-		<property name="playlistMode">
-			<value>1</value>
-		</property>
 		<relationship name="modulators">
 			<destination>{5800f216-95ab-4d5b-a1ba-29f62904272c}</destination>
+			<destination>{415e1b39-33bf-4f06-9c36-e79fcc5f5920}</destination>
 		</relationship>
 		<relationship name="sounds">
 			<destination>{d3352822-01ec-4522-a235-9309c06d48f0}</destination>
@@ -198,9 +209,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{0b2e53e9-984f-44cd-b3ad-3019cb8077d4}">
-		<property name="volume">
-			<value>4.5</value>
-		</property>
 		<property name="name">
 			<value>Droplet</value>
 		</property>
@@ -247,7 +255,15 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>15</value>
+			<value>23</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{415e1b39-33bf-4f06-9c36-e79fcc5f5920}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>startOffset</value>
+		</property>
+		<property name="amount">
+			<value>1.5</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{d3352822-01ec-4522-a235-9309c06d48f0}">
@@ -303,6 +319,7 @@
 	<object class="MixerBusEffectChain" id="{a3b1aa0a-8051-4fe8-9a47-64e10b32984a}">
 		<relationship name="effects">
 			<destination>{2a5fc736-f497-48f2-89fa-6411aa6c57a2}</destination>
+			<destination>{302fa49c-e898-419c-b22a-f059a180a04e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{19de647f-50f4-4d51-80a9-705ea9c6b86d}" />
@@ -320,4 +337,27 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{2a5fc736-f497-48f2-89fa-6411aa6c57a2}" />
+	<object class="SFXReverbEffect" id="{302fa49c-e898-419c-b22a-f059a180a04e}">
+		<property name="decayTime">
+			<value>4600</value>
+		</property>
+		<property name="earlyDelay">
+			<value>15</value>
+		</property>
+		<property name="lateDelay">
+			<value>22</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>100</value>
+		</property>
+		<property name="highCut">
+			<value>20000</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>59</value>
+		</property>
+		<property name="wetLevel">
+			<value>-11.3000002</value>
+		</property>
+	</object>
 </objects>

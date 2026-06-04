@@ -135,7 +135,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{28f40b21-f149-4c10-89a1-c0f69497ee64}">
 		<property name="volume">
-			<value>-2.5</value>
+			<value>-4</value>
 		</property>
 		<property name="name">
 			<value>Acid</value>
@@ -177,6 +177,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2ecd393b-d849-4ba7-b073-3be94edecdd7}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>Acid 2</value>
 		</property>
@@ -258,7 +261,7 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>16.5</value>
+			<value>17.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{4a2019ad-531e-4389-9208-05bda53309cc}" />

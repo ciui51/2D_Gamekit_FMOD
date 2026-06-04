@@ -89,7 +89,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{44d2fdc9-db86-43e7-87a3-81691a9bfe6a}">
 		<property name="pitch">
-			<value>-3.20000005</value>
+			<value>-2.4000001</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{01f4b52b-0cd3-4875-883d-ec953812552a}</destination>
@@ -199,6 +199,7 @@
 		<relationship name="effects">
 			<destination>{7713abdb-efed-4e1b-939a-344a67bd4fb6}</destination>
 			<destination>{2dff1702-b363-4842-9d28-4fd4d4fbc9b7}</destination>
+			<destination>{af53d774-8384-4325-97ef-e6b428d1513f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{52d28c75-b787-4436-9cb2-42246281d955}" />
@@ -249,13 +250,13 @@
 	<object class="MixerBusPanner" id="{b60ce73b-63fe-4a75-8a25-9745347d5985}" />
 	<object class="ThreeEQEffect" id="{7713abdb-efed-4e1b-939a-344a67bd4fb6}">
 		<property name="lowGain">
-			<value>-17</value>
+			<value>-20.5</value>
 		</property>
 		<property name="midGain">
-			<value>-15.5</value>
+			<value>-29</value>
 		</property>
 		<property name="highGain">
-			<value>-13</value>
+			<value>-11.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{ae9f8c78-3939-46bd-8936-0e61efa9bd82}</destination>
@@ -263,6 +264,26 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{2dff1702-b363-4842-9d28-4fd4d4fbc9b7}" />
+	<object class="SFXReverbEffect" id="{af53d774-8384-4325-97ef-e6b428d1513f}">
+		<property name="decayTime">
+			<value>550</value>
+		</property>
+		<property name="lateDelay">
+			<value>30</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>33</value>
+		</property>
+		<property name="highCut">
+			<value>4500</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>80</value>
+		</property>
+		<property name="wetLevel">
+			<value>-9.60000038</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{e4bee698-3426-4028-8fee-cde961852243}">
 		<property name="position">
 			<value>0</value>

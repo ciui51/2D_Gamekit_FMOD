@@ -4,9 +4,6 @@
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>
-		<property name="volume">
-			<value>-2.5</value>
-		</property>
 		<property name="name">
 			<value>B_die</value>
 		</property>

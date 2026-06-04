@@ -70,7 +70,7 @@
 	<object class="MarkerTrack" id="{10aa6f94-c1c1-4a28-bdf8-fc1f776a8e58}" />
 	<object class="GroupTrack" id="{8a649eee-b759-4748-8fb1-4276826621bc}">
 		<relationship name="automationTracks">
-			<destination>{0b6b93c9-59ca-46e1-a0f4-794b3f61ed06}</destination>
+			<destination>{1d0782f3-b5f2-4cda-981b-16fa23c34956}</destination>
 		</relationship>
 		<relationship name="modules">
 			<destination>{aab5edb9-f768-44e7-9cba-bdffcaca1703}</destination>
@@ -118,7 +118,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0ce2e442-3884-4c4d-83ae-027061104753}" />
-	<object class="AutomationTrack" id="{0b6b93c9-59ca-46e1-a0f4-794b3f61ed06}">
+	<object class="AutomationTrack" id="{1d0782f3-b5f2-4cda-981b-16fa23c34956}">
 		<relationship name="automator">
 			<destination>{968524c6-b6f2-44da-8f88-6d0cace88c63}</destination>
 		</relationship>
@@ -163,9 +163,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c3a0282c-178d-497c-9459-44e5178b58fb}">
-		<property name="volume">
-			<value>-2</value>
-		</property>
 		<property name="name">
 			<value>Wind 2</value>
 		</property>

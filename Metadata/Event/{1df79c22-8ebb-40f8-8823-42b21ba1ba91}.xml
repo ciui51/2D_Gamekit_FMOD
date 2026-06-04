@@ -67,6 +67,8 @@
 	<object class="GroupTrack" id="{c3ea7e81-c3cc-48c3-ae89-0ff3eec9f92a}">
 		<relationship name="modules">
 			<destination>{292fb6d9-bd4f-43f9-916e-78670f3d2e5b}</destination>
+			<destination>{1dd04ee9-5e45-490f-9d3e-a9948c369c15}</destination>
+			<destination>{5aae38cd-3c85-4827-a879-d22fc1a2c006}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{e7c41c15-ff36-489e-bf13-df4f4b3437e5}</destination>
@@ -80,6 +82,8 @@
 	<object class="ParameterProxy" id="{794edca8-e8ba-44b6-ba0d-11076d0f74e8}">
 		<relationship name="modules">
 			<destination>{292fb6d9-bd4f-43f9-916e-78670f3d2e5b}</destination>
+			<destination>{1dd04ee9-5e45-490f-9d3e-a9948c369c15}</destination>
+			<destination>{5aae38cd-3c85-4827-a879-d22fc1a2c006}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{e9f85b59-c64d-4d99-b8e1-5078bb45bf68}</destination>
@@ -106,6 +110,9 @@
 		<property name="start">
 			<value>1</value>
 		</property>
+		<property name="volume">
+			<value>6.5</value>
+		</property>
 		<property name="playlistMode">
 			<value>1</value>
 		</property>
@@ -115,7 +122,23 @@
 			<destination>{afe13dfc-3d54-48a1-8103-80bf3da95826}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{1dd04ee9-5e45-490f-9d3e-a9948c369c15}">
+		<relationship name="audioFile">
+			<destination>{e12f6758-f454-4c0f-9909-9633d51237ac}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{5aae38cd-3c85-4827-a879-d22fc1a2c006}">
+		<property name="pitch">
+			<value>-6</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{e12f6758-f454-4c0f-9909-9633d51237ac}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{e7c41c15-ff36-489e-bf13-df4f4b3437e5}">
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
 		<property name="name">
 			<value>BossShield</value>
 		</property>

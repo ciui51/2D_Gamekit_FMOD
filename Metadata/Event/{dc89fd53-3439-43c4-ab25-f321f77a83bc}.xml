@@ -66,8 +66,8 @@
 	<object class="MarkerTrack" id="{da9cc8d5-6a30-4eba-9fd8-7881d348309d}" />
 	<object class="GroupTrack" id="{f028a8ac-7207-4d47-a291-a43f38f12948}">
 		<relationship name="modules">
-			<destination>{45e12e28-02b9-41f9-a34e-c3a127cceec0}</destination>
-			<destination>{687a0843-f691-4fb1-9cf9-3d0199349b14}</destination>
+			<destination>{3169d15e-2bde-497f-bc8b-f044a7eac194}</destination>
+			<destination>{bccbca98-f525-4091-9387-0eb1a9097f25}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{4fe1779e-8575-4b1c-8813-a33565445955}</destination>
@@ -80,8 +80,8 @@
 	</object>
 	<object class="ParameterProxy" id="{564de079-bddc-439a-a14a-fea60a113657}">
 		<relationship name="modules">
-			<destination>{45e12e28-02b9-41f9-a34e-c3a127cceec0}</destination>
-			<destination>{687a0843-f691-4fb1-9cf9-3d0199349b14}</destination>
+			<destination>{3169d15e-2bde-497f-bc8b-f044a7eac194}</destination>
+			<destination>{bccbca98-f525-4091-9387-0eb1a9097f25}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{03dee000-047f-4095-af5b-30b1d385c3ba}</destination>
@@ -104,23 +104,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b24e836f-427c-4166-99dd-902793dc69b7}" />
-	<object class="SingleSound" id="{45e12e28-02b9-41f9-a34e-c3a127cceec0}">
+	<object class="SingleSound" id="{3169d15e-2bde-497f-bc8b-f044a7eac194}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{9942f11b-d86a-4fdf-a129-e3b34a4a6b72}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{bccbca98-f525-4091-9387-0eb1a9097f25}">
 		<property name="start">
 			<value>1</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{1e94da30-16ff-4a49-a2a1-967069468937}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{687a0843-f691-4fb1-9cf9-3d0199349b14}">
-		<property name="start">
-			<value>2</value>
-		</property>
-		<property name="pitch">
-			<value>-2.20000005</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{a9055153-0061-4990-b1ce-fb7bde59f42f}</destination>
+			<destination>{9cc4e4e8-a8fb-403f-908a-d72f247a2d88}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4fe1779e-8575-4b1c-8813-a33565445955}">

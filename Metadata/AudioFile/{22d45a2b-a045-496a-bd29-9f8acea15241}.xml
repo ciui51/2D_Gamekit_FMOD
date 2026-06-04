@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{a9055153-0061-4990-b1ce-fb7bde59f42f}">
+	<object class="AudioFile" id="{22d45a2b-a045-496a-bd29-9f8acea15241}">
 		<property name="assetPath">
-			<value>Boss/Steam2.wav</value>
+			<value>Box Rummaging/Box Rummaging (5).wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>2.3303541666666665</value>
+			<value>1.5625</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>

@@ -229,7 +229,10 @@
 			<value>-0.5</value>
 		</property>
 		<property name="highGain">
-			<value>4</value>
+			<value>3.5</value>
+		</property>
+		<property name="highCrossover">
+			<value>2000</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{e142e288-3094-4862-a38f-4b8518f15968}" />

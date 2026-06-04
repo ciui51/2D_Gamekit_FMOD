@@ -114,6 +114,9 @@
 		<property name="length">
 			<value>0.86160416666666662</value>
 		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="fadeInCurve">
 			<destination>{03ce0bdc-e025-43c9-8edd-f57c28945293}</destination>
 		</relationship>
@@ -155,6 +158,9 @@
 		</property>
 		<property name="pitch">
 			<value>-9.5</value>
+		</property>
+		<property name="playlistMode">
+			<value>1</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{c46febc9-ca12-41cb-b71c-852f2c806b66}</destination>

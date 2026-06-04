@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{910d40d5-a9a8-43e4-9bdc-c5326beb3eb8}">
+		<property name="name">
+			<value>OutdoorIntensity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{247928fb-7a5c-4b50-8db8-394db57b7e65}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{247928fb-7a5c-4b50-8db8-394db57b7e65}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

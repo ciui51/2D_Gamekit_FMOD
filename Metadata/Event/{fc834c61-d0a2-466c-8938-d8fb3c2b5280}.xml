@@ -124,6 +124,12 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{aab5edb9-f768-44e7-9cba-bdffcaca1703}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{ce75f0f6-45fe-4a52-a1bc-136315bb5302}</destination>
 		</relationship>
@@ -158,7 +164,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c3a0282c-178d-497c-9459-44e5178b58fb}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-2</value>
 		</property>
 		<property name="name">
 			<value>Wind 2</value>
@@ -235,7 +241,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-11.5</value>
+			<value>-13</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{58f073b9-38ff-4814-9862-5aabe09bfe9d}">
@@ -243,7 +249,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>1.5</value>
+			<value>7</value>
 		</property>
 	</object>
 </objects>

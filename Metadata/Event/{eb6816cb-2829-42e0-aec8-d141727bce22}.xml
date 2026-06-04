@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{eb6816cb-2829-42e0-aec8-d141727bce22}">
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
 		<property name="name">
 			<value>BossCutscene</value>
 		</property>
@@ -46,6 +49,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{aa421208-4a90-40f6-8632-dc3c3c3e43ab}">
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{328dfcc8-c71c-493c-acde-38c8b99b3b92}</destination>
 		</relationship>
@@ -53,7 +59,7 @@
 			<destination>{b0821e26-7fd8-4624-8859-2c1f311de47b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{d73eb462-8d59-402c-bee7-ff69b1d0040f}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{28752e13-25da-432a-8320-6c2170121691}" />

@@ -106,6 +106,9 @@
 		<property name="start">
 			<value>1</value>
 		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{5f89ee47-8f9c-40ba-97db-61473e8cef4b}</destination>
 			<destination>{e2cdff28-3461-4739-b91b-cb007d015db9}</destination>

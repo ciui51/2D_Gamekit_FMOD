@@ -155,6 +155,7 @@
 	<object class="MixerBusEffectChain" id="{01a93899-2b5a-4bd7-8285-e3f58a4f5950}">
 		<relationship name="effects">
 			<destination>{11a03e29-4ec2-4857-a400-a1381d4c5d9a}</destination>
+			<destination>{5d9c4876-5aff-48b8-a939-1330311ba648}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fbc5e32c-8efc-4e60-bc96-f8fdc7497664}" />
@@ -187,4 +188,35 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{11a03e29-4ec2-4857-a400-a1381d4c5d9a}" />
+	<object class="FlangerEffect" id="{5d9c4876-5aff-48b8-a939-1330311ba648}">
+		<relationship name="modulators">
+			<destination>{697ba651-bdfe-47da-aaeb-bd7665375e15}</destination>
+			<destination>{8aa9decd-7015-426c-b43d-db6636c0379f}</destination>
+			<destination>{a8176d99-3438-4d02-81c3-d970a32a39f1}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{697ba651-bdfe-47da-aaeb-bd7665375e15}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>rate</value>
+		</property>
+		<property name="amount">
+			<value>29</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{8aa9decd-7015-426c-b43d-db6636c0379f}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>delay</value>
+		</property>
+		<property name="amount">
+			<value>75</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{a8176d99-3438-4d02-81c3-d970a32a39f1}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>mix</value>
+		</property>
+		<property name="amount">
+			<value>38</value>
+		</property>
+	</object>
 </objects>

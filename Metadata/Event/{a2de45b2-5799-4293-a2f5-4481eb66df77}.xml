@@ -132,6 +132,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{88715b2d-253b-493e-ace6-cb15fbd957c0}" />
 	<object class="MultiSound" id="{2ea1c43f-5a37-4ad9-beea-9b356d0bf9a5}">
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{c8ecad57-c45f-4af8-a012-75bebb9d436d}</destination>
 			<destination>{1bc6ddce-e483-4c0d-be18-01eef9f5a616}</destination>
@@ -144,6 +147,9 @@
 		</property>
 		<property name="pitch">
 			<value>-15.5</value>
+		</property>
+		<property name="playlistMode">
+			<value>1</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{f33794a8-31e2-43f7-a7ad-216affd63a85}</destination>
@@ -179,6 +185,9 @@
 		<property name="pitch">
 			<value>-1.20000005</value>
 		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{8e5e2c92-f0e6-4570-8c57-50af85e8d58f}</destination>
 			<destination>{975f2f8c-82d6-4a1c-a645-778bc80e2458}</destination>
@@ -195,6 +204,9 @@
 		</property>
 		<property name="pitch">
 			<value>-4.5</value>
+		</property>
+		<property name="playlistMode">
+			<value>1</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{2f911f83-d1f6-4c7e-b0d9-3a16ff03edf0}</destination>
@@ -229,6 +241,9 @@
 		<property name="pitch">
 			<value>-2</value>
 		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{e4227e2e-c210-47f8-afd3-016cd43bfaa9}</destination>
 			<destination>{02fce73d-52b8-4f93-ba1f-542b7d6bfe1d}</destination>
@@ -245,6 +260,9 @@
 		</property>
 		<property name="pitch">
 			<value>-1.20000005</value>
+		</property>
+		<property name="playlistMode">
+			<value>1</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{ca748268-cf8b-460e-9ebf-a35cac852f15}</destination>

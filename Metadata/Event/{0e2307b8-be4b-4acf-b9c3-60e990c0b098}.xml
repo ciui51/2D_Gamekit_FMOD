@@ -111,6 +111,9 @@
 		<property name="pitch">
 			<value>5</value>
 		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{2aefc133-877b-43fd-bf40-490be37a11b7}</destination>
 			<destination>{8baf40df-9a57-468c-a2ae-bf42b756eb83}</destination>
@@ -150,6 +153,9 @@
 		</property>
 		<property name="pitch">
 			<value>-9.5</value>
+		</property>
+		<property name="playlistMode">
+			<value>1</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{d9993410-25cc-4c91-82b7-c2a70d0cbe25}</destination>

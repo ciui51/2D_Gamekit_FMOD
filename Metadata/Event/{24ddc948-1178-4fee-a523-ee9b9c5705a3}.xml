@@ -139,7 +139,7 @@
 			<value>0.12000000000000001</value>
 		</property>
 		<property name="length">
-			<value>0.24000000000000005</value>
+			<value>0.16692118226600988</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>0.078781609195402336</value>
@@ -227,10 +227,10 @@
 	<object class="MixerBusPanner" id="{be9addce-7a4a-4a60-85d6-8db61a0bbf36}" />
 	<object class="ParameterCondition" id="{40918c32-87a2-45a7-954b-8f3ec3c49654}">
 		<property name="minimum">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{35670461-7257-4a5d-a7b6-766857ca7417}</destination>
@@ -288,7 +288,7 @@
 	</object>
 	<object class="AutomationPoint" id="{90f2a41a-791a-47fe-9785-d1a24569c8ae}">
 		<property name="position">
-			<value>0.35999999999999999</value>
+			<value>0.28692118226600988</value>
 		</property>
 		<property name="value">
 			<value>0</value>

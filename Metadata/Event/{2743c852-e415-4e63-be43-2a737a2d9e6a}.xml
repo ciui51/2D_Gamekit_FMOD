@@ -175,7 +175,11 @@
 			<destination>{94142470-39c2-4178-82ee-3a249bae82da}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{85cec529-816e-46a2-9146-e7b371b87b49}" />
+	<object class="MixerBusPanner" id="{85cec529-816e-46a2-9146-e7b371b87b49}">
+		<property name="stereoPan">
+			<value>-4</value>
+		</property>
+	</object>
 	<object class="ThreeEQEffect" id="{7b1383d5-55e6-4456-9c79-1d1dc83060ea}">
 		<property name="midGain">
 			<value>-7.5</value>

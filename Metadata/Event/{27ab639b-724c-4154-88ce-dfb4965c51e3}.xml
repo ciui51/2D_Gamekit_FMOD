@@ -189,6 +189,15 @@
 	</object>
 	<object class="MixerBusFader" id="{11a03e29-4ec2-4857-a400-a1381d4c5d9a}" />
 	<object class="FlangerEffect" id="{5d9c4876-5aff-48b8-a939-1330311ba648}">
+		<property name="rate">
+			<value>0.74000001</value>
+		</property>
+		<property name="delay">
+			<value>0.779999971</value>
+		</property>
+		<property name="mix">
+			<value>64</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{697ba651-bdfe-47da-aaeb-bd7665375e15}</destination>
 			<destination>{8aa9decd-7015-426c-b43d-db6636c0379f}</destination>
@@ -208,7 +217,7 @@
 			<value>delay</value>
 		</property>
 		<property name="amount">
-			<value>75</value>
+			<value>80.5</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{a8176d99-3438-4d02-81c3-d970a32a39f1}">

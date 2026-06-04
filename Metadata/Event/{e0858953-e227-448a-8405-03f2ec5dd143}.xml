@@ -109,7 +109,7 @@
 			<value>0.54618226600985187</value>
 		</property>
 		<property name="pitch">
-			<value>8.5</value>
+			<value>9</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{be7210bf-df9d-4fa9-9ef6-037e3f6afcce}</destination>
@@ -141,6 +141,9 @@
 		</property>
 		<property name="timelockedOffset">
 			<value>0.72352216748768472</value>
+		</property>
+		<property name="volume">
+			<value>-5.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{da33ca7f-4a0d-49ff-a2a8-fa479f8b31b4}</destination>
@@ -301,7 +304,7 @@
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.5</value>
+			<value>1</value>
 		</property>
 		<property name="isSCurve">
 			<value>true</value>

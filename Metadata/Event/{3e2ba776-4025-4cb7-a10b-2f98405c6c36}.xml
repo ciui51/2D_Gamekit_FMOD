@@ -96,7 +96,7 @@
 			<value>0.29999999999999999</value>
 		</property>
 		<property name="pitch">
-			<value>4</value>
+			<value>2.79999995</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{c2aa094f-c29e-46aa-9d46-cdb8c82cb985}</destination>
@@ -198,13 +198,13 @@
 	<object class="MixerBusFader" id="{86d5b524-b1e2-410b-a383-4a6f80d67dba}" />
 	<object class="ThreeEQEffect" id="{3a625c5c-ed00-4b99-9ff9-47737f6642bf}">
 		<property name="lowGain">
-			<value>-21.5</value>
+			<value>-15.5</value>
 		</property>
 		<property name="midGain">
-			<value>-10</value>
+			<value>-8</value>
 		</property>
 		<property name="highGain">
-			<value>-3</value>
+			<value>1</value>
 		</property>
 	</object>
 </objects>

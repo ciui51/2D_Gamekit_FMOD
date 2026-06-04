@@ -99,7 +99,7 @@
 			<value>1.1074418103448276</value>
 		</property>
 		<property name="pitch">
-			<value>-2</value>
+			<value>-24</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{c2f556a4-46e6-4c61-a350-d52a4cb4e785}</destination>

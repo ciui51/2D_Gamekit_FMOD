@@ -98,6 +98,9 @@
 		<property name="timelockedOffset">
 			<value>0.0073434959975369439</value>
 		</property>
+		<property name="volume">
+			<value>1.5</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{beda6cd8-9a4d-4e8a-b082-1663cd649eb6}</destination>
 		</relationship>
@@ -151,13 +154,9 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>56</value>
+			<value>72</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{3ce2c93d-66e7-4f6f-954d-d6b72a6d0bab}" />
-	<object class="ThreeEQEffect" id="{9f8f662f-5b43-490c-818c-065521dd87f6}">
-		<property name="highGain">
-			<value>-5</value>
-		</property>
-	</object>
+	<object class="ThreeEQEffect" id="{9f8f662f-5b43-490c-818c-065521dd87f6}" />
 </objects>

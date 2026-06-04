@@ -102,7 +102,7 @@
 			<value>1.5</value>
 		</property>
 		<property name="pitch">
-			<value>3.20000005</value>
+			<value>3.4000001</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{43d70943-7d10-4ed3-8c10-c56534018b1d}</destination>
@@ -144,9 +144,6 @@
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
-		<property name="amount">
-			<value>11.5</value>
-		</property>
 	</object>
 	<object class="RandomizerModulator" id="{b17dad69-825a-413d-8b32-72931c4c701e}">
 		<property name="nameOfPropertyBeingModulated">
@@ -173,6 +170,7 @@
 		<relationship name="effects">
 			<destination>{b1dc0781-3986-4b4c-a127-5b5d64dc7672}</destination>
 			<destination>{e142e288-3094-4862-a38f-4b8518f15968}</destination>
+			<destination>{0102fe75-0de7-490f-8aa3-d49dc8f8078e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{292ff225-23ed-49c5-994f-4d89aea997dd}" />
@@ -182,7 +180,7 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>44</value>
+			<value>64</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{8cec93d9-49bf-48b3-a258-c2387193b8c5}">
@@ -193,12 +191,12 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.2547189</value>
+			<value>0.0357733592</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{dafa497b-a9ea-489e-9522-a0b1befe1d48}">
 		<property name="position">
-			<value>0.023271749395358619</value>
+			<value>0.12</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -206,7 +204,7 @@
 	</object>
 	<object class="AutomationPoint" id="{5994b1e5-0633-446a-b675-9adb3025e032}">
 		<property name="position">
-			<value>0.34000000000000002</value>
+			<value>0.20000000000000001</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -224,9 +222,26 @@
 		</property>
 	</object>
 	<object class="ThreeEQEffect" id="{b1dc0781-3986-4b4c-a127-5b5d64dc7672}">
+		<property name="lowGain">
+			<value>-1</value>
+		</property>
 		<property name="midGain">
-			<value>-7.5</value>
+			<value>-0.5</value>
+		</property>
+		<property name="highGain">
+			<value>4</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{e142e288-3094-4862-a38f-4b8518f15968}" />
+	<object class="FlangerEffect" id="{0102fe75-0de7-490f-8aa3-d49dc8f8078e}">
+		<property name="rate">
+			<value>1.60000002</value>
+		</property>
+		<property name="delay">
+			<value>0.439999998</value>
+		</property>
+		<property name="mix">
+			<value>69</value>
+		</property>
+	</object>
 </objects>

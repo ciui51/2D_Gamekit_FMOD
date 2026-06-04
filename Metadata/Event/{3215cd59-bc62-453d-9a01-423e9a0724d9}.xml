@@ -112,12 +112,12 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bff0aba4-6c47-4ef0-b513-f93b0b3f07cb}">
-		<property name="volume">
-			<value>-4</value>
-		</property>
 		<property name="name">
 			<value>BossTakeDamage</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{9139959d-60e5-45a9-a5f5-007c8d106f0e}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{266d5192-34b1-494a-aca4-4985f8d896d1}</destination>
 		</relationship>
@@ -171,8 +171,17 @@
 			<destination>{9d0a502a-a858-4acd-8558-5a7e70fe8868}</destination>
 		</relationship>
 	</object>
+	<object class="RandomizerModulator" id="{9139959d-60e5-45a9-a5f5-007c8d106f0e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>0.399999976</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{266d5192-34b1-494a-aca4-4985f8d896d1}">
 		<relationship name="effects">
+			<destination>{01b5e0c8-5755-4075-a3a7-63b3aca300ef}</destination>
 			<destination>{15bd200b-dae6-42d3-bd0c-e74c315ef774}</destination>
 			<destination>{6fc56937-c3de-443f-9986-69bd462c5e1e}</destination>
 		</relationship>
@@ -196,6 +205,14 @@
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{01b5e0c8-5755-4075-a3a7-63b3aca300ef}">
+		<property name="midGain">
+			<value>-2.5</value>
+		</property>
+		<property name="highGain">
+			<value>3.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{15bd200b-dae6-42d3-bd0c-e74c315ef774}" />

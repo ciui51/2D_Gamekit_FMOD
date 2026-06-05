@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a2de45b2-5799-4293-a2f5-4481eb66df77}">
+		<property name="note">
+			<value>One-shot event for when the player takes footsteps. 
+Surface parameter controls which sound should be played depending on the surface the player is stepping on.
+
+Surface:
+Value 0: Grass
+Value 1: Rock
+Value 2: Metal</value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 1</value>
 		</property>

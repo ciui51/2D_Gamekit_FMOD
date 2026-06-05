@@ -2,7 +2,11 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{fc834c61-d0a2-466c-8938-d8fb3c2b5280}">
 		<property name="note">
-			<value>Ambiance for outdoor environment. WindIntensity parameter changes amplitude for Wind_loop to introduce more leaves and foliage.</value>
+			<value>Ambiance for outdoor environment. WindIntensity parameter changes amplitude for Wind_loop to introduce more leaves and foliage.
+
+WindIntensity:
+0.00: Lowest intensity
+1: Highest intensity</value>
 		</property>
 		<property name="color">
 			<value>Cyan Light 2</value>
@@ -139,7 +143,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{86214e20-2dd7-46b8-892a-16780d5341cf}">
 		<property name="name">
-			<value>Wind</value>
+			<value>WindFoliage</value>
 		</property>
 		<relationship name="automators">
 			<destination>{90305c2d-7648-4661-9879-494c00375b0a}</destination>
@@ -167,7 +171,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c3a0282c-178d-497c-9459-44e5178b58fb}">
 		<property name="name">
-			<value>Wind 2</value>
+			<value>Wind</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{7091afb9-748e-46a8-82fa-ab6ed6922bed}</destination>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5fcf6bf6-ddcb-4192-b224-0a34fe3167b5}">
+		<property name="note">
+			<value>One-shot event for when a door opens or a platform slides out.</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 1</value>
 		</property>

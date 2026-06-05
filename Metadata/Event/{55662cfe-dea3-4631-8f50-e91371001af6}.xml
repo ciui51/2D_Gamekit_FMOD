@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{55662cfe-dea3-4631-8f50-e91371001af6}">
 		<property name="note">
-			<value>One-shot event for when an enemy is killed. </value>
+			<value>One-shot event for when an enemy (chomper or spitter) is defeated. </value>
 		</property>
 		<property name="color">
 			<value>Red Light 1</value>

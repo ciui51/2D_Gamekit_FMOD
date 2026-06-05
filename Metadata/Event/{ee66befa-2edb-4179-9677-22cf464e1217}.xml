@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ee66befa-2edb-4179-9677-22cf464e1217}">
 		<property name="note">
-			<value>One-shot event for grenade attack.</value>
+			<value>One-shot event for gunner enemy grenade attack.</value>
 		</property>
 		<property name="color">
 			<value>Red Light 1</value>

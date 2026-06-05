@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{eb6816cb-2829-42e0-aec8-d141727bce22}">
 		<property name="note">
-			<value>One-shot event for Zone 5 boss cutscene.</value>
+			<value>One-shot event for the Zone5 gunner enemy cutscene.</value>
 		</property>
 		<property name="color">
 			<value>Purple Light 1</value>
@@ -113,7 +113,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{629dade6-99db-4233-82ce-09266215cbe0}">
 		<property name="name">
-			<value>CutScene</value>
+			<value>Cutscene</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{009d0a2e-93b3-4655-927b-ced27e031cdc}</destination>

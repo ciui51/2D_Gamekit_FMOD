@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a29a08d6-51ef-41cc-8f60-5d5dff7e8d39}">
+		<property name="note">
+			<value>One-shot event for when the player lands.</value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 1</value>
 		</property>

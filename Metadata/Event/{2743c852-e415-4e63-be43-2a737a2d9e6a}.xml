@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{2743c852-e415-4e63-be43-2a737a2d9e6a}">
+		<property name="note">
+			<value>One-shot event for when the player performs a melee attack.</value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 1</value>
 		</property>

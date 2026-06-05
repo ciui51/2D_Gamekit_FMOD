@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{dc89fd53-3439-43c4-ab25-f321f77a83bc}">
 		<property name="note">
-			<value>One-shot events for boss steam emission to signify boss phase change. SteamStage parameter controls which audio should be played. 
+			<value>One-shot events for gunner enemy steam emission to signify boss phase change. SteamStage parameter controls which audio should be played. 
 
 SteamStage
 Value 0: None

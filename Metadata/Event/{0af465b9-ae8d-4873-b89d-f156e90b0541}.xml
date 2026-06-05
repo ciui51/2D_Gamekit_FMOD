@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0af465b9-ae8d-4873-b89d-f156e90b0541}">
+		<property name="note">
+			<value>One-shot event for when a destructable stone wall is hit and destroyed.</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 1</value>
 		</property>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f700caa8-c7ba-4b1a-bbb8-2bf411eabd38}">
+		<property name="note">
+			<value>One-shot event for when something falls into an acid loop.</value>
+		</property>
 		<property name="color">
 			<value>Green Light 1</value>
 		</property>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e0858953-e227-448a-8405-03f2ec5dd143}">
+		<property name="note">
+			<value>One-shot event for when a health pickup is collected.</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 1</value>
 		</property>

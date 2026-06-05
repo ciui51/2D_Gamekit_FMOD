@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{3e1b5e28-8f35-4b5e-99f1-9c4ae615c590}">
+		<property name="note">
+			<value>One-shot event for when the player takes damage.</value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 1</value>
 		</property>
@@ -143,8 +146,11 @@
 			<value>0.0048945684517162549</value>
 		</property>
 		<property name="pitch">
-			<value>-8.5</value>
+			<value>-6</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{10b5fc1c-7399-4bbb-824b-794fad24896d}</destination>
+		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{b7193b1e-8b70-4ec7-b7ed-acd47a50c0d9}</destination>
 		</relationship>
@@ -180,6 +186,9 @@
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
+		<property name="amount">
+			<value>11.5</value>
+		</property>
 	</object>
 	<object class="FadeCurve" id="{ca2861f5-1b28-43be-8a30-62cb850bd939}">
 		<relationship name="startPoint">
@@ -196,6 +205,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{65ec4574-7dab-4e7b-bb13-884fab77c5c7}" />
+	<object class="RandomizerModulator" id="{10b5fc1c-7399-4bbb-824b-794fad24896d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>21</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{b7193b1e-8b70-4ec7-b7ed-acd47a50c0d9}">
 		<relationship name="startPoint">
 			<destination>{41690fc5-573a-4e78-b787-ede636d44722}</destination>

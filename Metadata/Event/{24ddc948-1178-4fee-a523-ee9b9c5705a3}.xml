@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{24ddc948-1178-4fee-a523-ee9b9c5705a3}">
+		<property name="note">
+			<value>Looping event for when a box is being pushed. Looping parameter controls wether the audio loops or not.
+
+Looping:
+Value 0: Not looping
+Value 1: Looping</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 1</value>
 		</property>

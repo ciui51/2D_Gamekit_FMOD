@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{fd8bd4e7-cc9b-4fbb-8c08-0a5e99f27d32}">
+		<property name="note">
+			<value>One-shot event for when the "Start Game" button is pressed.</value>
+		</property>
 		<property name="color">
 			<value>Magenta Light 1</value>
 		</property>

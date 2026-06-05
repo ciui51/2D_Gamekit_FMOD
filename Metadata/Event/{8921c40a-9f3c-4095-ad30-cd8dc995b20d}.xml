@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8921c40a-9f3c-4095-ad30-cd8dc995b20d}">
+		<property name="note">
+			<value>One-shot event for when a pressure plate is stood on or activated by a pushable box.</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 1</value>
 		</property>

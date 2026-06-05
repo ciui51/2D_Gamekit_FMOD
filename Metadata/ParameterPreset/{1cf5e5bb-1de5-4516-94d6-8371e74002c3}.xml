@@ -5,7 +5,7 @@
 			<value>Acid intensity</value>
 		</property>
 		<relationship name="folder">
-			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
+			<destination>{b8f108a7-e848-4b41-ab50-adfe448da50e}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{608e1a2b-b380-4c9c-8127-30599ed6b7b7}</destination>

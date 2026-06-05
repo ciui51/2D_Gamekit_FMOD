@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{55662cfe-dea3-4631-8f50-e91371001af6}">
+		<property name="note">
+			<value>One-shot event for when an enemy is killed. </value>
+		</property>
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>
@@ -124,7 +127,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{941d88ea-5d10-4250-9cbd-2c6b2e972ffe}">
 		<property name="volume">
-			<value>-26</value>
+			<value>-10.5</value>
 		</property>
 		<property name="name">
 			<value>Die</value>

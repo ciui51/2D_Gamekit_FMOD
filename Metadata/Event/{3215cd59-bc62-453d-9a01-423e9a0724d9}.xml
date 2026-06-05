@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{3215cd59-bc62-453d-9a01-423e9a0724d9}">
+		<property name="note">
+			<value>One-shot event for when the gunner enemy takes damage.</value>
+		</property>
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>

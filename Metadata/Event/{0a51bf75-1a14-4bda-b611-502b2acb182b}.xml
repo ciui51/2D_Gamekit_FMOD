@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0a51bf75-1a14-4bda-b611-502b2acb182b}">
+		<property name="note">
+			<value>One-shot event for Zone 2 cutscene.</value>
+		</property>
 		<property name="color">
 			<value>Purple Light 1</value>
 		</property>

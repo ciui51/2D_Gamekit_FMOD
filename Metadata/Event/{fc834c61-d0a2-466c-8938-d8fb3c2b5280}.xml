@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{fc834c61-d0a2-466c-8938-d8fb3c2b5280}">
+		<property name="note">
+			<value>Ambiance for outdoor environment. WindIntensity parameter changes amplitude for Wind_loop to introduce more leaves and foliage.</value>
+		</property>
 		<property name="color">
 			<value>Cyan Light 2</value>
 		</property>

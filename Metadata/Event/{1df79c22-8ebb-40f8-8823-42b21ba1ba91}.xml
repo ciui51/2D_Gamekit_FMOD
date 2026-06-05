@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1df79c22-8ebb-40f8-8823-42b21ba1ba91}">
+		<property name="note">
+			<value>One-shot events for boss shield status. ShieldState parameter controls which audio should be played. 
+
+Shieldstate
+Value 0: Down
+Value 1: Up</value>
+		</property>
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>

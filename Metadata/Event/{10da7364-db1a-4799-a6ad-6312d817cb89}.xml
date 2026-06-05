@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{10da7364-db1a-4799-a6ad-6312d817cb89}">
+		<property name="note">
+			<value>One-shot event for lightning attack.</value>
+		</property>
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>

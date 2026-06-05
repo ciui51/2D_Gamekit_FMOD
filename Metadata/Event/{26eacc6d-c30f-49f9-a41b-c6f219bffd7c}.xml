@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{26eacc6d-c30f-49f9-a41b-c6f219bffd7c}">
+		<property name="note">
+			<value>One-shot event for Gunner death animation.</value>
+		</property>
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>

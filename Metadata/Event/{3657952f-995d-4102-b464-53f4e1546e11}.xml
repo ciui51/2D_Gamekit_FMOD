@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{3657952f-995d-4102-b464-53f4e1546e11}">
+		<property name="note">
+			<value>Ambiance for indoor/cave environment (zones 4 and 5).</value>
+		</property>
 		<property name="color">
 			<value>Cyan Light 2</value>
 		</property>
@@ -186,7 +189,7 @@
 			<value>6.5</value>
 		</property>
 		<property name="pitch">
-			<value>5</value>
+			<value>3.79999995</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -255,7 +258,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>23</value>
+			<value>17</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{415e1b39-33bf-4f06-9c36-e79fcc5f5920}">
@@ -277,6 +280,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{2dd372ac-d2e6-4803-b85d-aea587a4eea4}">
+		<property name="volume">
+			<value>3.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{eac845e1-5e1f-4d5b-925b-57b13cfa6d13}</destination>
 		</relationship>
